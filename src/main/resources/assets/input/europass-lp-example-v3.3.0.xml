@@ -1,0 +1,172 @@
+<?xml version="1.0" encoding="UTF-8"?><SkillsPassport xmlns="http://europass.cedefop.europa.eu/Europass" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://europass.cedefop.europa.eu/Europass http://europass.cedefop.europa.eu/xml/v3.3.0/EuropassSchema.xsd" locale="en">
+  <DocumentInfo>
+    <DocumentType>ELP</DocumentType>
+    <Bundle/>
+    <CreationDate>2013-07-08T00:00:00.000Z</CreationDate>
+    <LastUpdateDate>2015-06-03T09:47:55.102Z</LastUpdateDate>
+    <XSDVersion>V3.3</XSDVersion>
+    <Generator>EWA</Generator>
+    <Comment>Automatically generated Europass Language Passport</Comment>
+    <EuropassLogo>true</EuropassLogo>
+  </DocumentInfo>
+  <PrintingPreferences>
+    <Document type="ELP">
+      <Field name="LearnerInfo.Identification.PersonName" show="true" order="FirstName Surname"/>
+      <Field name="LearnerInfo.Skills.Linguistic.ForeignLanguage[0].Certificate[0].Date" show="true" format="numeric/long"/>
+      <Field name="LearnerInfo.Skills.Linguistic.ForeignLanguage[0].Certificate[1].Date" show="true" format="numeric/long"/>
+      <Field name="LearnerInfo.Skills.Linguistic.ForeignLanguage[0].Experience[0].Period" show="true" format="numeric/long"/>
+      <Field name="LearnerInfo.Skills.Linguistic.ForeignLanguage[0].Experience[1].Period" show="true" format="numeric/long"/>
+      <Field name="LearnerInfo.Skills.Linguistic.ForeignLanguage[1].Certificate[0].Date" show="true" format="numeric/long"/>
+      <Field name="LearnerInfo.Skills.Linguistic.ForeignLanguage[1].Experience[0].Period" show="true" format="numeric/long"/>
+      <Field name="LearnerInfo.Skills.Linguistic.ForeignLanguage[2].Certificate[0].Date" show="false" format="numeric/long"/>
+      <Field name="LearnerInfo.Skills.Linguistic.ForeignLanguage[2].Experience[0].Period" show="true" format="numeric/long"/>
+      <Field name="LearnerInfo.Skills.Linguistic.ForeignLanguage[3].Certificate[0].Date" show="false" format="numeric/long"/>
+      <Field name="LearnerInfo.Skills.Linguistic.ForeignLanguage[3].Experience[0].Period" show="true" format="numeric/long"/>
+      <Field name="LearnerInfo.CEFLanguageLevelsGrid" show="true"/>
+      <Field name="LearnerInfo" show="true" order="Identification Skills ReferenceTo"/>
+    </Document>
+  </PrintingPreferences>
+  <LearnerInfo>
+    <Identification>
+      <PersonName>
+        <FirstName>Marc</FirstName>
+        <Surname>Peeters</Surname>
+      </PersonName>
+    </Identification>
+    <Skills>
+      <Linguistic>
+        <MotherTongueList>
+          <MotherTongue>
+            <Description>
+              <Label>French, Dutch</Label>
+            </Description>
+          </MotherTongue>
+        </MotherTongueList>
+        <ForeignLanguageList>
+          <ForeignLanguage>
+            <Description>
+              <Code>en</Code>
+              <Label>English</Label>
+            </Description>
+            <ProficiencyLevel>
+              <Listening>C2</Listening>
+              <Reading>C1</Reading>
+              <SpokenInteraction>C2</SpokenInteraction>
+              <SpokenProduction>C2</SpokenProduction>
+              <Writing>C1</Writing>
+            </ProficiencyLevel>
+            <AcquiredDuring>
+              <Experience>
+                <Period>
+                  <From year="2004" month="--10"/>
+                  <To year="2008" month="--07"/>
+                  <Current>false</Current>
+                </Period>
+                <Description>Living and studying in Manchester for four years.</Description>
+              </Experience>
+              <Experience>
+                <Period>
+                  <From year="1999" month="--03"/>
+                  <To year="1999" month="--04"/>
+                  <Current>false</Current>
+                </Period>
+                <Description>School exchange programme in Leeds: one month living with a British family</Description>
+              </Experience>
+            </AcquiredDuring>
+            <VerifiedBy>
+              <Certificate>
+                <Title>Certificate of Proficiency in English (CPE)</Title>
+                <AwardingBody>University of Cambridge</AwardingBody>
+                <Date year="2003" month="--05" day="---15"/>
+                <Level>C2</Level>
+              </Certificate>
+              <Certificate>
+                <Title>Cambridge English: First (FCE) for Schools</Title>
+                <AwardingBody>University of Cambridge</AwardingBody>
+                <Date year="2000" month="--11" day="---09"/>
+                <Level>B2</Level>
+              </Certificate>
+            </VerifiedBy>
+          </ForeignLanguage>
+          <ForeignLanguage>
+            <Description>
+              <Code>de</Code>
+              <Label>German</Label>
+            </Description>
+            <ProficiencyLevel>
+              <Listening>C1</Listening>
+              <Reading>C2</Reading>
+              <SpokenInteraction>C2</SpokenInteraction>
+              <SpokenProduction>C1</SpokenProduction>
+              <Writing>C2</Writing>
+            </ProficiencyLevel>
+            <AcquiredDuring>
+              <Experience>
+                <Period>
+                  <From year="2009" month="--10"/>
+                  <To year="2011" month="--06"/>
+                  <Current>false</Current>
+                </Period>
+                <Description>Internship in Cologne, (working language: German)</Description>
+              </Experience>
+            </AcquiredDuring>
+            <VerifiedBy>
+              <Certificate>
+                <Title>Zertifikat (C1)</Title>
+                <AwardingBody>GOETHE INSTITUT</AwardingBody>
+                <Date year="2007"/>
+                <Level>C1</Level>
+              </Certificate>
+            </VerifiedBy>
+          </ForeignLanguage>
+          <ForeignLanguage>
+            <Description>
+              <Code>es</Code>
+              <Label>Spanish</Label>
+            </Description>
+            <ProficiencyLevel>
+              <Listening>B1</Listening>
+              <Reading>B2</Reading>
+              <SpokenInteraction>B2</SpokenInteraction>
+              <SpokenProduction>B1</SpokenProduction>
+              <Writing>B2</Writing>
+            </ProficiencyLevel>
+            <AcquiredDuring>
+              <Experience>
+                <Period>
+                  <From year="2007" month="--09"/>
+                  <To year="2008" month="--02"/>
+                  <Current>false</Current>
+                </Period>
+                <Description>Erasmus programme in Madrid</Description>
+              </Experience>
+            </AcquiredDuring>
+          </ForeignLanguage>
+          <ForeignLanguage>
+            <Description>
+              <Code>ja</Code>
+              <Label>Japanese</Label>
+            </Description>
+            <ProficiencyLevel>
+              <Listening>A1</Listening>
+              <Reading>A2</Reading>
+              <SpokenInteraction>A2</SpokenInteraction>
+              <SpokenProduction>A2</SpokenProduction>
+              <Writing>A1</Writing>
+            </ProficiencyLevel>
+            <AcquiredDuring>
+              <Experience>
+                <Period>
+                  <From year="2008" month="--09" day="---01"/>
+                  <To year="2009" month="--09" day="---30"/>
+                  <Current>false</Current>
+                </Period>
+                <Description>Japanese Exchange and Teaching (JET) Programme</Description>
+              </Experience>
+            </AcquiredDuring>
+          </ForeignLanguage>
+        </ForeignLanguageList>
+      </Linguistic>
+    </Skills>
+  </LearnerInfo>
+</SkillsPassport>

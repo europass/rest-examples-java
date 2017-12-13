@@ -1,0 +1,301 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<europass:learnerinfo xmlns:europass="http://europass.cedefop.europa.eu/Europass/V2.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://europass.cedefop.europa.eu/Europass/V2.0 http://europass.cedefop.europa.eu/xml/EuropassSchema_V2.0.xsd" locale="en_GB">
+    <docinfo>
+        <issuedate>2013-07-08T17:15:43+03:00</issuedate>
+        <xsdversion>V2.0</xsdversion>
+        <comment>Automatically generated Europass Language Passport</comment>
+    </docinfo>
+    <prefs>
+        <field name="personal.lastName" before="personal.firstName" />
+        <field name="personal.birthDate" keep="false" format="" />
+        <field name="foreignLanguageList[0].ass" keep="true" />
+        <field name="foreignLanguageList[0].diplomaList[0]" keep="true" />
+        <field name="foreignLanguageList[0].diplomaList[1]" keep="true" />
+        <field name="foreignLanguageList[0].experienceList[0]" keep="true" />
+        <field name="foreignLanguageList[0].experienceList[0].period" format="/text/long" />
+        <field name="foreignLanguageList[0].experienceList[1]" keep="true" />
+        <field name="foreignLanguageList[0].experienceList[1].period" format="" />
+        <field name="foreignLanguageList[1].ass" keep="true" />
+        <field name="foreignLanguageList[1].diplomaList[0]" keep="true" />
+        <field name="foreignLanguageList[1].experienceList[0]" keep="true" />
+        <field name="foreignLanguageList[1].experienceList[0].period" format="" />
+        <field name="foreignLanguageList[2].ass" keep="true" />
+        <field name="foreignLanguageList[2].experienceList[0]" keep="true" />
+        <field name="foreignLanguageList[2].experienceList[0].period" format="/text/long" />
+        <field name="foreignLanguageList[3].ass" keep="true" />
+        <field name="foreignLanguageList[3].experienceList[0]" keep="true" />
+        <field name="foreignLanguageList[3].experienceList[0].period" format="/text/long" />
+        <field name="grid" keep="true" />
+    </prefs>
+    <identification>
+        <firstname>Marc</firstname>
+        <lastname>Peeters</lastname>
+        <demographics></demographics>
+    </identification>
+    <languagelist>
+        <language xsi:type="europass:mother">
+            <label>French, Dutch</label>
+        </language>
+        <language xsi:type="europass:foreign">
+            <code>en</code>
+            <label>English</label>
+            <level>
+                <listening>c2</listening>
+                <reading>c1</reading>
+                <spokeninteraction>c2</spokeninteraction>
+                <spokenproduction>c2</spokenproduction>
+                <writing>c1</writing>
+            </level>
+            <diplomalist>
+                <diploma>
+                    <title>Certificate of Proficiency in English (CPE)</title>
+                    <awardingBody>University of Cambridge</awardingBody>
+                    <date>
+                        <year>
+                                                    2003
+                                                    </year>
+                        <month>
+                                                    --05
+                                                    </month>
+                        <day>---15</day>
+                    </date>
+                    <level>c2</level>
+                </diploma>
+                <diploma>
+                    <title>Cambridge English: First (FCE) for Schools</title>
+                    <awardingBody>University of Cambridge</awardingBody>
+                    <date>
+                        <year>
+                                                    2000
+                                                    </year>
+                        <month>
+                                                    --11
+                                                    </month>
+                        <day>---09</day>
+                    </date>
+                    <level>b2</level>
+                </diploma>
+            </diplomalist>
+            <experiencelist>
+                <experience>
+                    <period>
+                        <from>
+                            <year>
+                                                    
+                                                        2004
+                                                    
+                                                </year>
+                            <month>
+                                                    
+                                                        --10
+                                                    
+                                                </month>
+                        </from>
+                        <to>
+                            <year>
+                                                    
+                                                        2008
+                                                        
+                                                </year>
+                            <month>
+                                                    
+                                                        --07
+                                                    
+                                                </month>
+                        </to>
+                    </period>
+                    <description>Living and studying in Manchester for four years.</description>
+                </experience>
+                <experience>
+                    <period>
+                        <from>
+                            <year>
+                                                    
+                                                        1999
+                                                    
+                                                </year>
+                            <month>
+                                                    
+                                                        --03
+                                                    
+                                                </month>
+                        </from>
+                        <to>
+                            <year>
+                                                    
+                                                        1999
+                                                        
+                                                </year>
+                            <month>
+                                                    
+                                                        --04
+                                                    
+                                                </month>
+                        </to>
+                    </period>
+                    <description>School exchange programme in Leeds: one month living with a British family</description>
+                </experience>
+            </experiencelist>
+        </language>
+        <language xsi:type="europass:foreign">
+            <code>de</code>
+            <label>German</label>
+            <level>
+                <listening>c1</listening>
+                <reading>c2</reading>
+                <spokeninteraction>c2</spokeninteraction>
+                <spokenproduction>c1</spokenproduction>
+                <writing>c2</writing>
+            </level>
+            <diplomalist>
+                <diploma>
+                    <title>Zertifikat (C1)</title>
+                    <awardingBody>GOETHE INSTITUT</awardingBody>
+                    <date>
+                        <year>
+                                                    2007
+                                                    </year>
+                    </date>
+                    <level>c1</level>
+                </diploma>
+            </diplomalist>
+            <experiencelist>
+                <experience>
+                    <period>
+                        <from>
+                            <year>
+                                                    
+                                                        2009
+                                                    
+                                                </year>
+                            <month>
+                                                    
+                                                        --10
+                                                    
+                                                </month>
+                        </from>
+                        <to>
+                            <year>
+                                                    
+                                                        2011
+                                                        
+                                                </year>
+                            <month>
+                                                    
+                                                        --06
+                                                    
+                                                </month>
+                        </to>
+                    </period>
+                    <description>Internship in Cologne, (working language: German)</description>
+                </experience>
+            </experiencelist>
+        </language>
+        <language xsi:type="europass:foreign">
+            <code>es</code>
+            <label>Spanish / Castilian</label>
+            <level>
+                <listening>b1</listening>
+                <reading>b2</reading>
+                <spokeninteraction>b2</spokeninteraction>
+                <spokenproduction>b1</spokenproduction>
+                <writing>b2</writing>
+            </level>
+            <diplomalist>
+                <diploma>
+                    <title></title>
+                    <awardingBody></awardingBody>
+                    <date></date>
+                    <level></level>
+                </diploma>
+            </diplomalist>
+            <experiencelist>
+                <experience>
+                    <period>
+                        <from>
+                            <year>
+                                                    
+                                                        2007
+                                                    
+                                                </year>
+                            <month>
+                                                    
+                                                        --09
+                                                    
+                                                </month>
+                        </from>
+                        <to>
+                            <year>
+                                                    
+                                                        2008
+                                                        
+                                                </year>
+                            <month>
+                                                    
+                                                        --02
+                                                    
+                                                </month>
+                        </to>
+                    </period>
+                    <description>Erasmus programme in Madrid </description>
+                </experience>
+            </experiencelist>
+        </language>
+        <language xsi:type="europass:foreign">
+            <code>ja</code>
+            <label>Japanese</label>
+            <level>
+                <listening>a1</listening>
+                <reading>a2</reading>
+                <spokeninteraction>a2</spokeninteraction>
+                <spokenproduction>a2</spokenproduction>
+                <writing>a1</writing>
+            </level>
+            <diplomalist>
+                <diploma>
+                    <title></title>
+                    <awardingBody></awardingBody>
+                    <date></date>
+                    <level></level>
+                </diploma>
+            </diplomalist>
+            <experiencelist>
+                <experience>
+                    <period>
+                        <from>
+                            <year>
+                                                    
+                                                        2008
+                                                    
+                                                </year>
+                            <month>
+                                                    
+                                                        --09
+                                                    
+                                                </month>
+                            <day>---01</day>
+                        </from>
+                        <to>
+                            <year>
+                                                    
+                                                        2009
+                                                        
+                                                </year>
+                            <month>
+                                                    
+                                                        --09
+                                                    
+                                                </month>
+                            <day>
+                                                    
+                                                        ---30
+                                                    
+                                                </day>
+                        </to>
+                    </period>
+                    <description>Japanese Exchange and Teaching (JET) Programme</description>
+                </experience>
+            </experiencelist>
+        </language>
+    </languagelist>
+</europass:learnerinfo>

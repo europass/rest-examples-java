@@ -1,0 +1,677 @@
+<?xml version="1.0" encoding="UTF-8"?><SkillsPassport xmlns="http://europass.cedefop.europa.eu/Europass" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://europass.cedefop.europa.eu/Europass http://europass.cedefop.europa.eu/xml/v3.3.0/EuropassSchema.xsd" locale="en">
+  <DocumentInfo>
+    <DocumentType>ECV</DocumentType>
+    <Bundle>
+      <Document>ECL</Document>
+    </Bundle>
+    <CreationDate>2013-02-21T07:47:20.086Z</CreationDate>
+    <LastUpdateDate>2015-06-03T09:49:26.820Z</LastUpdateDate>
+    <XSDVersion>V3.3</XSDVersion>
+    <Generator>EWA</Generator>
+    <Comment>Europass CV</Comment>
+    <EuropassLogo>true</EuropassLogo>
+  </DocumentInfo>
+  <PrintingPreferences>
+    <Document type="ECV">
+      <Field name="LearnerInfo.Identification.PersonName" show="true" order="FirstName Surname"/>
+      <Field name="LearnerInfo.Identification.Demographics.Birthdate" show="true" format="text/short"/>
+      <Field name="LearnerInfo.WorkExperience[0].Period" show="true" format="text/short"/>
+      <Field name="LearnerInfo.WorkExperience[1].Period" show="true" format="text/short"/>
+      <Field name="LearnerInfo.WorkExperience[2].Period" show="true" format="text/short"/>
+      <Field name="LearnerInfo.Education[0].Period" show="true" format="text/short"/>
+      <Field name="LearnerInfo.Education[1].Period" show="true" format="text/short"/>
+      <Field name="LearnerInfo.Skills.Linguistic.ForeignLanguage[0].Certificate[0].Date" show="false" format="text/short"/>
+      <Field name="LearnerInfo.Skills.Linguistic.ForeignLanguage[0].Experience[0].Period" show="false" format="text/short"/>
+      <Field name="LearnerInfo.Skills.Linguistic.ForeignLanguage[1].Certificate[0].Date" show="false" format="text/short"/>
+      <Field name="LearnerInfo.Skills.Linguistic.ForeignLanguage[1].Experience[0].Period" show="false" format="text/short"/>
+      <Field name="LearnerInfo.CEFLanguageLevelsGrid" show="false"/>
+      <Field name="LearnerInfo" show="true" order="Identification Headline WorkExperience Education Skills Achievement ReferenceTo"/>
+    </Document>
+    <Document type="ECL">
+      <Field name="LearnerInfo.Identification.PersonName" show="true" order="FirstName Surname"/>
+      <Field name="CoverLetter.Addressee.PersonName" show="true" order="Title FirstName Surname"/>
+      <Field name="CoverLetter.Letter.Localisation.Date" show="false" format="text/long"/>
+      <Field name="CoverLetter.Letter.Localisation" show="false" order="Place Date"/>
+      <Field name="CoverLetter.Justification" show="false"/>
+      <Field name="CoverLetter" show="false" order="Addressee Letter.Localisation Letter.SubjectLine Letter.OpeningSalutation Letter.Body Letter.ClosingSalutation"/>
+    </Document>
+  </PrintingPreferences>
+  <LearnerInfo>
+    <Identification>
+      <PersonName>
+        <FirstName>Betty</FirstName>
+        <Surname>Smith</Surname>
+      </PersonName>
+      <ContactInfo>
+        <Address>
+          <Contact>
+            <AddressLine>32 Reading rd</AddressLine>
+            <PostalCode>B26 3QJ</PostalCode>
+            <Municipality>Birmingham</Municipality>
+            <Country>
+              <Code>UK</Code>
+              <Label>United Kingdom</Label>
+            </Country>
+          </Contact>
+        </Address>
+        <Email>
+          <Contact>smith@kotmail.com</Contact>
+        </Email>
+        <TelephoneList>
+          <Telephone>
+            <Contact>+44 2012345679</Contact>
+            <Use>
+              <Code>home</Code>
+              <Label>Home</Label>
+            </Use>
+          </Telephone>
+          <Telephone>
+            <Contact>+44 7123456789</Contact>
+            <Use>
+              <Code>mobile</Code>
+              <Label>Mobile</Label>
+            </Use>
+          </Telephone>
+        </TelephoneList>
+        <InstantMessagingList>
+          <InstantMessaging>
+            <Contact>betty.smith</Contact>
+            <Use>
+              <Code>skype</Code>
+              <Label>Skype</Label>
+            </Use>
+          </InstantMessaging>
+        </InstantMessagingList>
+      </ContactInfo>
+      <Demographics>
+        <Birthdate year="1975" month="--03" day="---01"/>
+        <Gender>
+          <Code>F</Code>
+          <Label>Female</Label>
+        </Gender>
+      </Demographics>
+      <Photo>
+        <MimeType>image/jpeg</MimeType>
+        <Data>/9j/4AAQSkZJRgABAgAAAQABAAD/2wBDAAgGBgcGBQgHBwcJCQgKDBQNDAsLDBkSEw8UHRofHh0a
+HBwgJC4nICIsIxwcKDcpLDAxNDQ0Hyc5PTgyPC4zNDL/2wBDAQkJCQwLDBgNDRgyIRwhMjIyMjIy
+MjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjL/wAARCAEBAN4DASIA
+AhEBAxEB/8QAHwAAAQUBAQEBAQEAAAAAAAAAAAECAwQFBgcICQoL/8QAtRAAAgEDAwIEAwUFBAQA
+AAF9AQIDAAQRBRIhMUEGE1FhByJxFDKBkaEII0KxwRVS0fAkM2JyggkKFhcYGRolJicoKSo0NTY3
+ODk6Q0RFRkdISUpTVFVWV1hZWmNkZWZnaGlqc3R1dnd4eXqDhIWGh4iJipKTlJWWl5iZmqKjpKWm
+p6ipqrKztLW2t7i5usLDxMXGx8jJytLT1NXW19jZ2uHi4+Tl5ufo6erx8vP09fb3+Pn6/8QAHwEA
+AwEBAQEBAQEBAQAAAAAAAAECAwQFBgcICQoL/8QAtREAAgECBAQDBAcFBAQAAQJ3AAECAxEEBSEx
+BhJBUQdhcRMiMoEIFEKRobHBCSMzUvAVYnLRChYkNOEl8RcYGRomJygpKjU2Nzg5OkNERUZHSElK
+U1RVVldYWVpjZGVmZ2hpanN0dXZ3eHl6goOEhYaHiImKkpOUlZaXmJmaoqOkpaanqKmqsrO0tba3
+uLm6wsPExcbHyMnK0tPU1dbX2Nna4uPk5ebn6Onq8vP09fb3+Pn6/9oADAMBAAIRAxEAPwD3+iii
+gAooooAKKKKACiiigAooooAKKKinuIbWMyXE0cUY6tIwUfmaAJaKwLvxv4XsRmfXbDjqI5hIR+C5
+qgnxP8FySCMa/bhj03K6/qRSuFmddRWbY+ING1JwljqtlcueixTqzfkDmtKmAUUUUAFFFFABRRRQ
+AUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUVFNNFbQPNPIscSAs7ucBQO5NAEtc/r/i/SfDqlbqY
+yXGMi3hG5z9fT8cVwvif4lXF2z2egv5Fucr9sYYeT12A/dHuefSvPWmd3di7FixLOzEkn/GolPsa
+Rp33Oy1f4la3qDstoF0236DbhnP1Y9PwA/GuM1C8mvpjNeXUlxIP45HLc/U5P5YqvJMcbickDq39
+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
+j/OiiqEf/9k=</Data>
+        <MetadataList>
+          <Metadata key="dimension" value="591x608"/>
+          <Metadata key="number-of-pages" value="1"/>
+        </MetadataList>
+      </Photo>
+      <Signature>
+        <MimeType>image/png</MimeType>
+        <Data>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</Data>
+        <MetadataList>
+          <Metadata key="dimension" value="250x81"/>
+          <Metadata key="number-of-pages" value="1"/>
+        </MetadataList>
+      </Signature>
+    </Identification>
+    <Headline>
+      <Type>
+        <Code>job_applied_for</Code>
+        <Label>JOB APPLIED FOR</Label>
+      </Type>
+      <Description>
+        <Label>European project manager</Label>
+      </Description>
+    </Headline>
+    <WorkExperienceList>
+      <WorkExperience>
+        <Period>
+          <From year="2002" month="--08"/>
+          <Current>true</Current>
+        </Period>
+        <Position>
+          <Label>Independent consultant</Label>
+        </Position>
+        <Activities>Evaluation of European Commission youth training support measures for youth national&lt;br /&gt;agencies and young people</Activities>
+        <Employer>
+          <Name>British Council</Name>
+          <ContactInfo>
+            <Address>
+              <Contact>
+                <AddressLine>123, Bd Ney</AddressLine>
+                <PostalCode>75023</PostalCode>
+                <Municipality>Paris</Municipality>
+                <Country>
+                  <Code>FR</Code>
+                  <Label>France</Label>
+                </Country>
+              </Contact>
+            </Address>
+          </ContactInfo>
+        </Employer>
+      </WorkExperience>
+      <WorkExperience>
+        <Period>
+          <From year="2002" month="--03"/>
+          <To year="2002" month="--07"/>
+          <Current>false</Current>
+        </Period>
+        <Position>
+          <Label>Internship</Label>
+        </Position>
+        <Activities>- evaluating youth training programmes for SALTO UK and the partnership between the&lt;br /&gt;Council of Europe and European Commission&lt;br /&gt;- organizing and running a 2 day workshop on non-formal education for Action 5 large scale projects focusing on quality, assessment and recognition&lt;br /&gt;- contributing to the steering sroup on training and developing action plans on training for&lt;br /&gt;the next 3 years. Working on the Users Guide for training and the support measures</Activities>
+        <Employer>
+          <Name>European Commission, Youth Unit, DG Education and Culture</Name>
+          <ContactInfo>
+            <Address>
+              <Contact>
+                <AddressLine>200, Rue de la Loi</AddressLine>
+                <PostalCode>1049</PostalCode>
+                <Municipality>Brussels</Municipality>
+                <Country>
+                  <Code>BE</Code>
+                  <Label>Belgium</Label>
+                </Country>
+              </Contact>
+            </Address>
+          </ContactInfo>
+          <Sector>
+            <Label>European institution</Label>
+          </Sector>
+        </Employer>
+      </WorkExperience>
+      <WorkExperience>
+        <Period>
+          <From year="2001" month="--10"/>
+          <To year="2002" month="--02"/>
+          <Current>false</Current>
+        </Period>
+        <Position>
+          <Label>Researcher / Independent Consultant</Label>
+        </Position>
+        <Activities>Working in a research team carrying out in-depth qualitative evaluation of the 2 year Advanced Training of Trainers in Europe using participant observations, in-depth interviews and focus groups. Work carried out in training courses in Strasbourg, Slovenia and Budapest.</Activities>
+        <Employer>
+          <Name>Council of Europe</Name>
+          <ContactInfo>
+            <Address>
+              <Contact>
+                <Municipality>Budapest</Municipality>
+                <Country>
+                  <Code>HU</Code>
+                  <Label>Hungary</Label>
+                </Country>
+              </Contact>
+            </Address>
+          </ContactInfo>
+        </Employer>
+      </WorkExperience>
+    </WorkExperienceList>
+    <EducationList>
+      <Education>
+        <Period>
+          <From year="1997"/>
+          <To year="2001"/>
+          <Current>false</Current>
+        </Period>
+        <Title>PhD - Thesis Title: 'Young People in the Construction of the Virtual University’, Empirical research on e-learning</Title>
+        <Organisation>
+          <Name>Brunel University</Name>
+          <ContactInfo>
+            <Address>
+              <Contact>
+                <Municipality>London</Municipality>
+                <Country>
+                  <Code>UK</Code>
+                  <Label>United Kingdom</Label>
+                </Country>
+              </Contact>
+            </Address>
+          </ContactInfo>
+        </Organisation>
+      </Education>
+      <Education>
+        <Period>
+          <From year="1993"/>
+          <To year="1997"/>
+          <Current>false</Current>
+        </Period>
+        <Title>Bachelor of Science in Sociology and Psychology</Title>
+        <Activities>- sociology of risk&lt;br /&gt;- sociology of scientific knowledge / information society&lt;br /&gt;- anthropology&lt;br /&gt;E-learning and Psychology&lt;br /&gt;- research methods</Activities>
+        <Organisation>
+          <Name>Brunel University</Name>
+          <ContactInfo>
+            <Address>
+              <Contact>
+                <Municipality>London</Municipality>
+                <Country>
+                  <Code>UK</Code>
+                  <Label>United Kingdom</Label>
+                </Country>
+              </Contact>
+            </Address>
+          </ContactInfo>
+        </Organisation>
+      </Education>
+    </EducationList>
+    <Skills>
+      <Linguistic>
+        <MotherTongueList>
+          <MotherTongue>
+            <Description>
+              <Code>en</Code>
+              <Label>English</Label>
+            </Description>
+          </MotherTongue>
+        </MotherTongueList>
+        <ForeignLanguageList>
+          <ForeignLanguage>
+            <Description>
+              <Code>fr</Code>
+              <Label>French</Label>
+            </Description>
+            <ProficiencyLevel>
+              <Listening>C1</Listening>
+              <Reading>C2</Reading>
+              <SpokenInteraction>B2</SpokenInteraction>
+              <SpokenProduction>C1</SpokenProduction>
+              <Writing>C2</Writing>
+            </ProficiencyLevel>
+            <VerifiedBy>
+              <Certificate>
+                <Title>Dalf C1</Title>
+              </Certificate>
+            </VerifiedBy>
+          </ForeignLanguage>
+          <ForeignLanguage>
+            <Description>
+              <Code>de</Code>
+              <Label>German</Label>
+            </Description>
+            <ProficiencyLevel>
+              <Listening>A2</Listening>
+              <Reading>A2</Reading>
+              <SpokenInteraction>A2</SpokenInteraction>
+              <SpokenProduction>A2</SpokenProduction>
+              <Writing>A2</Writing>
+            </ProficiencyLevel>
+            <VerifiedBy>
+              <Certificate>
+                <Title>Zertifikat (A2)</Title>
+              </Certificate>
+            </VerifiedBy>
+          </ForeignLanguage>
+        </ForeignLanguageList>
+      </Linguistic>
+      <Communication>
+        <Description>- team work: I have worked in various types of teams from research teams to national league hockey. For 2 years I coached my university hockey team&lt;br /&gt;- mediating skills: I work on the borders between young people, youth trainers, youth policy and researchers, for example running a 3 day workshop at CoE Symposium ‘Youth Actor of Social Change’, and my continued work on youth training programmes&lt;br /&gt;- intercultural skills: I am experienced at working in a European dimension such as being a rapporteur at the CoE Budapest ‘youth against violence seminar’ and working with refugees.</Description>
+      </Communication>
+      <Organisational>
+        <Description>- whilst working for a Brussels based refugee NGO ‘Convivial’ I organized a ‘Civil Dialogue’&lt;br /&gt;between refugees and civil servants at the European Commission 20th June 2002&lt;br /&gt;- during my PhD I organised a seminar series on research methods</Description>
+      </Organisational>
+      <Computer>
+        <Description>- competent with most Microsoft Office programmes&lt;br /&gt;- experience with HTML</Description>
+      </Computer>
+      <Driving>
+        <Description>
+          <Licence>A</Licence>
+          <Licence>B</Licence>
+        </Description>
+      </Driving>
+      <Other>
+        <Description>Creating pieces of Art and visiting Modern Art galleries. Enjoy all sports particularly hockey, football and running. Love to travel and experience different cultures.</Description>
+      </Other>
+    </Skills>
+    <AchievementList>
+      <Achievement>
+        <Title>
+          <Code>publications</Code>
+          <Label>Publications</Label>
+        </Title>
+        <Description>‘How to do Observations: Borrowing techniques from the Social Sciences to help Participants do Observations in Simulation Exercises’ Coyote EU/CoE Partnership Publication, (2002).</Description>
+      </Achievement>
+    </AchievementList>
+  </LearnerInfo>
+  <CoverLetter>
+    <Addressee>
+      <PersonName>
+        <Title>
+          <Code>mr</Code>
+          <Label>Mr.</Label>
+        </Title>
+        <FirstName>John</FirstName>
+        <Surname>Smith</Surname>
+      </PersonName>
+      <Organisation>
+        <Name>Organisation Name</Name>
+        <ContactInfo>
+          <Address>
+            <Contact>
+              <AddressLine>24 Street name</AddressLine>
+              <PostalCode>54321</PostalCode>
+              <Municipality>London</Municipality>
+              <Country>
+                <Code>UK</Code>
+                <Label>United Kingdom</Label>
+              </Country>
+            </Contact>
+          </Address>
+        </ContactInfo>
+      </Organisation>
+    </Addressee>
+    <Letter>
+      <Localisation>
+        <Date year="2014" month="--10" day="---06"/>
+        <Place>
+          <Municipality>London</Municipality>
+        </Place>
+      </Localisation>
+      <SubjectLine>Customer Service Representative #A22714</SubjectLine>
+      <OpeningSalutation>
+        <Salutation>
+          <Code>opening-salut-2</Code>
+          <Label>Dear Mr.</Label>
+        </Salutation>
+        <PersonName>
+          <Surname>Smith</Surname>
+        </PersonName>
+      </OpeningSalutation>
+      <Body>
+        <Opening>&lt;p&gt;I recently learned of Company XYZ’s need for a Customer Service Representative and wanted to express my interest in the position. I have worked for more than 3 years in the telecommunications industry and am confident that my skills would be of great benefit to Company XYZ.&lt;/p&gt;</Opening>
+        <MainBody>&lt;p&gt;As a Customer Service Representative at Company ABC, I have ample experience in abc. I also developed skills in def. I believe these experiences and skills would be beneficial in your company’s customer support.&lt;/p&gt;</MainBody>
+        <Closing>&lt;p&gt;I have attached my resume for your review, and I look forward to further discussing my qualifications with you. Again, I am very much interested in working for Company XYZ. Thank you for your time and consideration.&lt;/p&gt;</Closing>
+      </Body>
+      <ClosingSalutation>
+        <Code>closing-salut-3</Code>
+        <Label>Sincerely</Label>
+      </ClosingSalutation>
+    </Letter>
+    <Documentation>
+      <Heading>
+        <Label>Enclosed:</Label>
+      </Heading>
+      <InterDocument>
+        <ReferencedDocument ref="ECV"/>
+      </InterDocument>
+    </Documentation>
+  </CoverLetter>
+</SkillsPassport>

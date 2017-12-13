@@ -1,0 +1,468 @@
+{
+  "SkillsPassport" : {
+    "Locale" : "en",
+    "DocumentInfo" : {
+      "DocumentType" : "ECV",
+      "Document" : [ "ECL" ],
+      "CreationDate" : "2013-02-21T07:47:20.086Z",
+      "LastUpdateDate" : "2015-06-03T12:18:28.430Z",
+      "XSDVersion" : "V3.3",
+      "Generator" : "REST_WS",
+      "Comment" : "Europass CV",
+      "EuropassLogo" : true
+    },
+    "PrintingPreferences" : {
+      "ECV" : [ {
+        "name" : "LearnerInfo.Identification.PersonName",
+        "show" : true,
+        "order" : "FirstName Surname"
+      }, {
+        "name" : "LearnerInfo.Identification.Demographics.Birthdate",
+        "show" : true,
+        "format" : "text/short"
+      }, {
+        "name" : "LearnerInfo.WorkExperience[0].Period",
+        "show" : true,
+        "format" : "text/short"
+      }, {
+        "name" : "LearnerInfo.WorkExperience[1].Period",
+        "show" : true,
+        "format" : "text/short"
+      }, {
+        "name" : "LearnerInfo.WorkExperience[2].Period",
+        "show" : true,
+        "format" : "text/short"
+      }, {
+        "name" : "LearnerInfo.Education[0].Period",
+        "show" : true,
+        "format" : "text/short"
+      }, {
+        "name" : "LearnerInfo.Education[1].Period",
+        "show" : true,
+        "format" : "text/short"
+      }, {
+        "name" : "LearnerInfo.Skills.Linguistic.ForeignLanguage[0].Certificate[0].Date",
+        "show" : false,
+        "format" : "text/short"
+      }, {
+        "name" : "LearnerInfo.Skills.Linguistic.ForeignLanguage[0].Experience[0].Period",
+        "show" : false,
+        "format" : "text/short"
+      }, {
+        "name" : "LearnerInfo.Skills.Linguistic.ForeignLanguage[1].Certificate[0].Date",
+        "show" : false,
+        "format" : "text/short"
+      }, {
+        "name" : "LearnerInfo.Skills.Linguistic.ForeignLanguage[1].Experience[0].Period",
+        "show" : false,
+        "format" : "text/short"
+      }, {
+        "name" : "LearnerInfo.CEFLanguageLevelsGrid",
+        "show" : false
+      }, {
+        "name" : "LearnerInfo",
+        "show" : true,
+        "order" : "Identification Headline WorkExperience Education Skills Achievement ReferenceTo"
+      } ],
+      "ECL" : [ {
+        "name" : "LearnerInfo.Identification.PersonName",
+        "show" : true,
+        "order" : "FirstName Surname"
+      }, {
+        "name" : "LearnerInfo.Identification.ContactInfo.Address",
+        "show" : true,
+        "format" : "s, m, z c"
+      }, {
+        "name" : "CoverLetter.Addressee.PersonName",
+        "show" : true,
+        "order" : "Title FirstName Surname"
+      }, {
+        "name" : "CoverLetter.Addressee",
+        "show" : true,
+        "position" : "left-align"
+      }, {
+        "name" : "CoverLetter.Letter.Localisation.Date",
+        "show" : false,
+        "format" : "text/long"
+      }, {
+        "name" : "CoverLetter.Letter.Localisation",
+        "show" : false,
+        "order" : "Place Date"
+      }, {
+        "name" : "CoverLetter.Letter.ClosingSalutation",
+        "show" : true,
+        "position" : "left-align"
+      }, {
+        "name" : "CoverLetter.Justification",
+        "show" : false,
+        "justify" : false
+      }, {
+        "name" : "CoverLetter",
+        "show" : false,
+        "order" : "Addressee Letter.Localisation Letter.SubjectLine Letter.OpeningSalutation Letter.Body Letter.ClosingSalutation"
+      } ]
+    },
+    "LearnerInfo" : {
+      "Identification" : {
+        "PersonName" : {
+          "FirstName" : "Betty",
+          "Surname" : "Smith"
+        },
+        "ContactInfo" : {
+          "Address" : {
+            "Contact" : {
+              "AddressLine" : "32 Reading rd",
+              "PostalCode" : "B26 3QJ",
+              "Municipality" : "Birmingham",
+              "Country" : {
+                "Code" : "UK",
+                "Label" : "United Kingdom"
+              }
+            }
+          },
+          "Email" : {
+            "Contact" : "smith@kotmail.com"
+          },
+          "Telephone" : [ {
+            "Contact" : "+44 2012345679",
+            "Use" : {
+              "Code" : "home",
+              "Label" : "Home"
+            }
+          }, {
+            "Contact" : "+44 7123456789",
+            "Use" : {
+              "Code" : "mobile",
+              "Label" : "Mobile"
+            }
+          } ],
+          "InstantMessaging" : [ {
+            "Contact" : "betty.smith",
+            "Use" : {
+              "Code" : "skype",
+              "Label" : "Skype"
+            }
+          } ]
+        },
+        "Demographics" : {
+          "Birthdate" : {
+            "Year" : 1975,
+            "Month" : 3,
+            "Day" : 1
+          },
+          "Gender" : {
+            "Code" : "F",
+            "Label" : "Female"
+          }
+        },
+        "Photo" : {
+          "MimeType" : "image/jpeg",
+          "Data" : "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",
+          "Metadata" : [ {
+            "Key" : "dimension",
+            "Value" : "591x608"
+          }, {
+            "Key" : "number-of-pages",
+            "Value" : "1"
+          } ]
+        },
+        "Signature" : {
+          "MimeType" : "image/png",
+          "Data" : "iVBORw0KGgoAAAANSUhEUgAAAPoAAABRCAYAAAD7N7sQAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsIAAA7CARUoSoAAABuISURBVHhe7Z0HVFRXF4UtUXqZoQwDA0PvHQQEUbFiB1FQFOxdxN57N4pdwC427KJRo4kajb1rooktMX/siT0xMRrd/7mX5xLDaAQJlrnfWqyl7z2GmXfvPmefW96UePr0ac7ff//9rfgRP+Ln4/0p8eTJkx8hEAg+akqQ2k9L/xYIBB8pQugCgRYghC4QaAFC6AKBFiCELhBoAULoAoEWIIQuEGgBQugCgRYghC4QaAFC6AKBFiCELhBoAULoAoEWIIQuEGgBQugCgRYghC4QaAFC6AKBFiCELhBoAULoAoEWIIQuEGgBQugCgRYghC4QaAFC6AKBFiCELhBoAR+00H//7Tfs27sXZ7//XjoiEAg08UEL/d7du9iQk4ODhw5KRwQCgSaEdRcItAAhdIFACxBCFwi0ACF0gUALEEIXCLQAIXRBsXH71i3MzshAfFw8kps1x4rs5Xj06E/prOC/RAhd8J/y7TffIHt5NpYtXY6shQuRPnMWUrp2g621DWyUCqxetUK6UvBf8p8L/Y8//sCPly7xRu7fpw/69uiJ7l1T0LljJ4wdM4Y6winpSsHHxC83b2LypEmoVqUKtXVnbMjZiBs3bvBzfz95goT4hrA0k2HipxP4McF/y0tCf/Ys9+dtuXL5Mvbt2YOMWbPQtlVrxNSvj7jYOLRMTkZql67o2L49akdHw9HBAX4+vlixfDmeUOMLCsb9+/exZu0aTBg/Af0oiH61c6d05t1x/949ZC9dgsZxcUhOSsK2bdtAfUw6m8uNa9dQNaoyXN3csPXzz6WjHzfXrlzFtatXpf+9nu+/+x4Xzl+Q/lc0FFlGf/z4MQ7s24/BgwfzRm7ToiVGDhuOTRs34vS33+BPyux5YctXDx88hBrVqpHg1Th29Kh0RvAmPHjwGzp26AS5TA5TU1Po6umhBQXSZ0URqQsJCzTxjRsjuno1cnALqI1/l8684NmzpxgzeiSsra0QExOD33/Pf83HxLWrVzA7MxMRYZURUT4Sp05pdrCPH/+FL7d9gW5dU+Hk4ISEhAQ8+rPoxi/eWui3b9/GmtWr0ahhQ0RGVECf3r1x4vhx3L1zV7ri9WzZvAk2KiUmTtAeC3fnzh38+usv0v8KxzLKmkorJaIqVUbO+nU4e+4cveav0tni5eHD35GZmYEqVaIwcsQIXL96TTrzMsy1TRg3DmZyY4SEBuDwR7x0mSWyFdnZ9DmDYWBkCEd7d7Rp1R4//PCDdEUuv1HA3rxpExKbNoWdnQN8vALQrk075Kxbj6dPn0pXvT2FFvo1asyM9Ew0btQIzRITkZmRgTPffiudfXMuXLwAN1dnDBzQXzrycfPrL78guXkS6taug0s//igdLRinvzmBBg1qITa2Ptm876Sj74ZjR46iSXwCibwKNn32mXRUMzOnzYC5zIy395bNr7/2XcJcB9sodfjgQVw8f56XHky4tyiQPiPx/UGB7cmTx9LV/+QZCfczEnULlAv0h6OjHQYO7KexnY4cPozWrVrCle6HnVqNevXq4eSJk9LZoqXAQmdRed68uVRjVUHDmIZYt24dr8sKy+KsRVBaK7B69UrpiGbY332XtrQoYB1mQP+BMDKUwdXZjTufgvKA6vJO7VvB39cdO7Zvk44WPw8fPqRAn4FAv0AkJTbHpR80By1W0u366it07tyZSjRnVKlUFVu3bJHOvp9c/vlnVKeSUi6Xw9PTi5cjNWvUQFhYGB9vqhQZgZgG9dC9WwoJug1atmyNNpSFp0+djJSULrCxUdLvmsBerYKLiyM6dWyPGdOmYc6sWciaNw+LFyygNuwIL08PqMjNenq6w9fXl14vFWtWrcL8OXMxNS0NczLTMXd2BkYNH46xI0djycJFOH7sGB7/9Zf0Tt+cAgn9GP2R5s2bIbhcMGZMn14k9dXYUSNhSx/2EEVPTVz++TLm0gdfvXJVkVqZYoeyRNqkiZBR57FR2mDVypWFClw561YjNMgPKZ064M8/Xx73KA6uXrmCHTu+RKvWyTAyMUTrli1x967mMu3s92fRsUNHmFmYU4d3wdChQ3Hp0iXp7PvLX48eYdHChYiJbUDuwwVmpsYw0NdBeHh5+gyD0KtXDypRhvNZhe6pPdCv/wBUqVYVcjMZF7mrqxMiIkLRvXs39O7dE127dEGXzh2REBcLTxcnKOTmUJgrERIUAi9XV1Sk101q1gx169RF1apV0YwcUuukJLRv2wrt27Wmv9cLgwcOxtBBQ5BOwYKtRygobyT0R38+wtQp0+Dl5Y0kegPfnTkjnXk7WIZLTGyKyArhfDomL6yOnTN7LurXbYA2rdvg20KUBe8L7LMMGTQAKlsl1PZ2FPmnSmcKxs//+wlNEhqiVo1qfH66uDl4YD+iKleEhYUp1Z266NSpPf9sz2GBi7Xp4UOH0btPH8rgTrCyska7tm2xf99+6aoPh6f0Wc6c/hYLF8xFGNXa5cPD0b9/Xyxbshh/5cmqrByLb9wI9vYOiGsYSwFgAi6cPyedfcGwIUPgZG/Px7NWrliBAf36YfqUKfjhwgVeGrBR+StXLuMhJdC/Hv1JuvuDlwlFwb8K/dKlH5HUvDm83L2QRdahKKfB9uz5GgorKwwdMlQ6QqK4fZts/CoqC2JRq2ZtrF+bw+3fh8rjvx6hW9cUGBoawYFEvnzpYjpa8EzO7nvfPt2hsrPChAnjpaPFB2uDZhSUS5UqQRnamJzYCJ75nsOm0ZokJFCdWRc+vn6Uwd0pk6Vgz+7dH3T7PecmJaKV2Sv4LJHMVMbr6WVLlpBgsykT14avnzfiE+KwdHEWlbL3pd/KhTnfceNGw1qlIi0lY9NnGzF4cH+sXLm02MrR1wr9xvXraJrYBIGBfviSGrKomULRzNXNFd+dznUILMpFRkbCz9+Pn2M28UPmCXXw8ePGQiYzg4e7J9auWSOdKTiHDx3inalmdE3876efpKPFx9TJaTA2NkWJEiXQu1d3nu3ywixlmVKloa+vi1CqZU8cPyGd+bj47cEDrFm9BtXJYpuR4M1kMni6u6Jdu5bYkLOGt3leWD3dt29v2NkpKSBE07/7ID4+DrNnp5MreBEo/2teKXRmR5pTJnewV+OLbVulo0UHG8GsVSsatWrXxFKyQsnJyQgpF4r2HdgUxEXpqrfnItmiqWmT+Rwvs5XFBbNigwcNgpW1Et5eXshZnyOdKTisFu/UoS3MzcxJcIWz/W8Dm/5RWCq5yFu2bKFxbObO7Tvo0a0bzOQyyuauWLVylXTmw+DevXs4f+4clixejNSUbmjcOAGZ6ZkvWfS8DBsyCLbWljA1MUTZT0qjUsWK+abOmJOZnZkBL293BAR6URkajQoVwrCE+ntxo1Hofz/5G6NGjYWt2gHp6bOko0UHsysDBw6gWk8Obx9PquMs0aBBfZw8cQJ3qeY7cvjIS7Xf62Cj0Gz0esrUKZg2bRpukfV/DpvuqxUdzTtovdp1SDDFt4FizJgxMLO0JDcUiK9375KOFo7s5Ythp7JEdLWqFCALPhDzNuzftw/BweXoHn7COz8rrV4FGyxlg7R2akc4Orphy2bNo+tnzpzBmrVrce2a5vl26iDSP/Lzz4z5prB6V9PsEKuLJ02ciGrVq8LDwwOuzi6oGBEJW1s7WCutsXPHDunKXNjU28KFC+ie+MPb0xmhIf6oXasmBWELhIdFYvmybOlKYPzYcbx/Bwf7Uj/wQYvkRCpX364vFBaNQj9NAvHw9EDTpol8rXpRwxbJsJFYuZkJYmLqIjt7GbdEV36+jIRGCTDUN8HokaOlq3Nh2Zh1usVZWdzGsgaaP28+alStDn+ytFbWFjCl12OjpazDLZy/AH5+PijzSRm4urjh82Kc0lmZnQ1LCwsoqaOwxURvAxt0q1QxHCobS6z9lynIomb7l1/A3c0DhoYytG/f6Y0CJWun0aNGQ0buIyqqSr6AzQa3KlaIRMkSpZD26UTp6As2rFuHFknJ1I5Z0hGCdH/82BFMSRuPJk3iebu/6VgRmwZcs3oV/V4CalaPxtGjx6QzwN69e1G9eg0oFFZ8NmktBR82t/3F1s8RGOCL4KDAl+a1WYKaMmUSidcDtnbWdI0P1qzKpmRzDwsXLCD360x23go9e/TGiBHDKXC4wc3ZHgE+7ujbuwdu3LwuvVLxk0/orG7o2LEdVGoltm//QjpaNLBlsGvppvt4e0FBWTxj1kweve+TyMeMGYeAgEDKHKXg6uSOndtz120zS3Xs6BF07dIZru5usFRYQq22I3H7Q25iDoXcCv6+nlDayGFjZ44uXTrwKQ8bazvo6OqRVYrA7q+KL4oyYYaGhMDS3IKv9X8b7ty+RYGwAYxNjdGP6rxX2cii5tGjR5hMWc6KHEnpkmWhons5esRInDx5ggLmZvpc6ejcsQvmzp6jUfxsADeARKKys8XBAweko3RvTp1Eg5g6MDE2goebO/Z+vUc6kztgNXnyRLiQMPR1y2JA/wH8OJs3ZoOZ7h7u5Pzk0NPTgaOD42sXGx0+dADdU7pg5PChfEGXm5sL9HR16EcfO6QMzd4Xm0WytlZhxowZ/BiDjaOUKxeEiPAwCnRfSkdz3cq0qZNhq7KmJCXj41arVrzI3ox9e/aiWtVo6Ojow9DIEBYKuo6S0OyZM/MtAS9u8gl9/96voXZQolxIAK6/yloVgv3796Nd+zZUDigpGtpgHUVPxpcUPevXqwt9fQMYGBkhqnJlHKeo+xvVuFmLFqIhdXRfLzcoqR6ytrOCJWXu0qVLwkBfD0mJidhK9rBZYhOYW5rA0UVFjecKV0cHmBqbcMGxDPKm3L71K99ZVViYyBvUrw+VrQ169+r5Spt59MgRbN64EXfvvro8YVNpHdq1hExmgOo1qlBbFE82YE/WTe3WFaVKleIlj6mhKRSUnS1NTWBEbVSyVGk6V5Kfq10rmpzYyyPMDOYCq0fXgNrRDps25o5NsFVmFcJDYK2yQGhYEHZsfyEitkClTdvW0DXQgw0JaeqUNFy7cgXjx30KBxK1Dd3PmtG1uLgUJDInat/Tp/MPLTHxs2WnoaHBMDHRJUcl5/3GxUkNc5kp+vbpywMTm/dv2DAWxkbGmCpNdbKB38EDh9Lv2KJSpYrUb15+/VkzZkJtYwUDPT1UjKyAfXtfBKm8zJ4zm/pnaX5/fEjkzBW9D+QT+skTx+Hm4QxrGyW2fl64QbgHlKGfc5Us9ujRYxAdXROVq1WGjaMKvcjGsHq8Q/t2cKCGlRnpQWEug7+/L1JTUzCWro+KqoQyZUrD3laF8uWD4OxmT0K3RFmdMhTR7enGT8ft27+SlV8ITy8vyvRKmJkrYGpiAivqDEqFCcaMfjFt9zrYeuOlS5aRFQsiWzhPOlowWIBo264tDClbsdHVf64LYLDdZunpM8mNeMKBrN/eV3SW3bt3oyrV4wb6ZREZHswzVHHAyqHkpGZkq0vAiDJSardU1KxWHUaGBnCyU+WuhoxrhEEDBqJP7168lNLEd2dOIywilAKvPbfit35l88yxlJHNULlyOInka34dE9zOnTv4KrSyZXVIYJWwIWc9Tp08hRTK4nK5gmp9FyxYOJ+7gUoVI2AhN0K7Ni35UlTGjZs3yGmcxORJExFRPhxqO3uYymSQWZhQwFXAxkYBE0M9dKS2YfPTjG1bt1AAsSUrX5UngmlTJiMkJIychhmaJjTHT+RInnPt2lWkTUqD0sqGB4v+fXrnmw1i5cH58+cxkVxQYFAQZBQU9fR1ERtTn9v99wGNNfrQIUMgMzGDv7c/hg8bhgP7NTdoXuh18L9Ll7Bo0SJquJp8MCo9cxZF1xC+VHb5smWIrlMbcoUFKlSMpPrFm7K4MSwtKVuQMC3I6qpsKPJS9ihbRofqdH2eqdnvNWoUBwNqrFKflCArXp7qqEMkrMdk7/pQA1jBwoIEbmqOyIqVMHbsWETXqEodVY86VUWq/1fwdcasE7PFB6yeYtOGLIsw+8aCUFxsI/r7VjAyMKUOM1n6RAXjm1On+Odio+yLFi6Qjr6ALTaJiaVsb6eEg6MV7FRm2Lsnt8Mz2Cj9AXo/7N67enihROkyCC0XjGNHDvN69L+eivmKBBcVFcVFrqIgP31abqY7dOAgvV9nKCwVmJo2Kd+0mibYbi1HF0d4+3nx3x8xbDAFZyuy306YN3c2rly+gqVZSxFTtwGVYWoK3mVhpVCgZ/dUvlbA29sFchJqdQp227/czl8z7dPxcKEkoSbxjhk5nO7dHswkSxwYGERBntrO1Ah6hvo8OJjJLPmDLdQUnFj/akiCu5fHPQ0Z3JcSmTkC/D2oj1Sg7G/Ma/U1q8llMl2SOA/T+2afo1JURcgtLchtGCI5uUXuC0jcvHEdy5YvQ0J8E0o2vtQPlXwqVaG0oNc0RPUqUS8lvXeJRqEz28yyqrODM3TKlOX1ZuP4eHRL7UbCH44Fc+ZhbuZsPn3UlWxet5QUxDWIpcDgS4KTkW0pidL0ez6UodOoc9ynyD185AiYUtZWqhQU7fSo1rGjCF6ZLDfdRD1damw9+l0zvra4TatWfMCOLTbZsWM7zC3MKOKXIcsUie+/z90ccO/eXYrC5aCno4uw0DDeKGxVEYMNqAQHlYOBgTFMKLr6UAZlbqJxkyaIa5zArVlwUAAFCeYQdOBg74RB/QfhGJUMzLoWhqysLLKdNrCgjjU5LY1H+cuXf0Y6dcbk5ER4ebvBxNwEtvY2vA719/TA7l27eIDIzEinTJrIO2apkiVhpVSiWfMknDub+w00rLOw2Y9WdF969OjJZyaKCuZE2L1jYxrMbrKpQJbx8sLKrIDAAD6uktK1K368+PI0Ul7YZpBK1MFNLOT0GRJ59msc15A6vj5s7G1Ro3YdyvaRMCNhG5sYwURO94RKOUfKsLa2SsipVDEy1KGyoDp++CF3T/buXTvhqLaFJWVztcoSPp6usFfbQZ+chp6ePt1zEra9EgqFHPp67BoHxNVvACdXRyhtrbk7yJyZgZnTZqJfv37cUluSu7CwNIWPjzs6d2pP7mQvviFnsJiCdGqXLtT3HSj4m1G7eZCrsIdKpcKwocPoXqzjKxu7devCHYEpZXk59c+2bdsie/kK+PmxcaYS/GfsmNFvFBiLA41Cfw5b6jqNOm0SdbrwiAj6wA5woAjs4epC1lNN/7aDk4sTfLy84e3uRcfdICcxW1JE69SpA44fy920sWHDRqqzbGEiM4aRsR6iqlTE5s82UkB5QPXYZB5AelFNyxbwX7x48aU17WwGgNVTLKufPXtWOpoLGyxhmwU0DcycOX0Gffv2JQscBWuq640pwlpYWsPUjGV/U8oMNggPC8WI4cOK5CudNm7YALmZHIZGBhTEbPkGCGcXF5QpW5aciw6CAv0xkoLdhHHjqaywgbO9MyIiKsDDiw0kKrljsSK3U7N6NWSSvX9uM5+Tnp7OO4+hvhF/qEdRcP7cWT7CnbsQpjQqV6qCfa+w42zUu169OtAz0Iefvz93HsuWLsaJE8fI6l7ipdjatatRh8oWuaUc9s4O2LRpE//dsaNHcfv/SRld/hn0KQD7B/ihboM69NmtqG2MuWD0qf5lO75YcMwbcLd+vgVyCti6ZT/hNtzIQIfP10dFVcaM6dN4onF0tKUSUB8+7h58Dv/ChfOoU78OdKjuV1hYQW5sTvW1Kb0HHRhQba5vYMCDchQF/Zh69bn7Y2vULUm0pqbGfBxgxPChmDcng4KfOxyo/zqq7cnpyqBLSUyvzCdwtFfzZwCwUf3c3WzPyC0Mo/5dja+Au/QOFja9itcKPS8sizDh79+7ly+gYSvlDh3cj+9On+aDdj+R2AYPGYCQsGDMmDGVZ2MGmxMPCAzhDezs5IhxY8fgBlmegsDmym/fevX87etg+7537dyJ9evWcjGuX7ee3v82HKX3ldfOvS2s/u5L9ZuZmRl1SB2q99juJTWaN2tOkX45LlANx2APY2hC7siYanldcjZKG2s+aNirZ09un29c1zwAypzMsKFDsHLlStwqxKaGf8I2RtSmUoq1S8mSpRHfqPG/rrhj+92HDxtKrsuDSiN6/7q68PXxQvmQYFgrLOkzsWAqh5OTAxfr82z24MF9vuqxdYvW6Ne3P9bn5OAcBVc2Jz937lw0o3vUn47PmjVL46PF2ADa/Llz0L9fX4weNZIvsGJPpmHWmfH55i3kSKxJkJ74Ks9IOavdG8c1Qgi5OzcXdzrvi+6pqZi/YD5atGhBAVkFKwoCMqrN7UnEQUG+aNokjo+us1KLwQZU27RuRZbclDI82X0/P3Sg7M3GiHbv+kpjDc7K2PeNNxb662AL+Lt07YTU7ik4evSIdBRkhY/D3y8Y5lT/tm/XDqdOFnxb5ocEm/5ic/zr16zmMwcs02naUnj79i0sW5KFSZM+xS6ypXx2o5gHbVjGbEUdWG1vz5/fd+dNAym9Txa05lDpFt84HuXLhyEiPBS1omuS62qIYUMG8+nMp3/n32n4qlkINp33NrAVaKwE+lHDVlk2A3Dzxg2+6o0FsueDeKyt2EaprAWLkLN2PS6Qk/zpf5f4eo5/wlZxHjlyBMePH+ePSSvK/R7FxVsLnW1ZjIwMR+fOHfgI5XMuknWqShbG1zsAOes2SEcF7xMs4LDSqLCrzRh37tzGLzevk9iKZ45fUDgKLXRmT2ZNn0G1ZyB/kmfeBQFsPrlChQoIDgzCMYqEAoHg3VIoobOpKTYIERpcDp9tfPmRQGzkunz5SAQHh/DpIoFA8O4psNBPHDuK+jVqoGbVarxmyQub8wwLj0CDmJh8I+QCgeDdUSChs5HO0HKBaFSvHn76x5a8NStXwdHeCU0Tm/HVcAKB4P3hjYU+d84cvp00MTEh3xJA9qQNJ7UD2rRoo3Hpp0AgeLe8kdDZ1lBrlQ1at2710kYMtixz/NjR/Du02Nct/fHwoXRGIBC8T/yr0NetXQ1nZyckJTV/6QsC2CIWtkOLrVMfPLB/sW2hFAgEBee1QmfPWnd2tkdCfGP+aKnnHD96FK1btYKXpydmTp8O9tQNgUDw/vJKobPlona2tnzzB/u2iuewp30GBATA29v7rR52KBAIig+NQt+xfTtsVHZwcHLiD0lgsDXIbOeUWu3Av63i6927+XGBQPD+k0/o9+/dRWxsPZiaGWPRwvl8eSRbwO/s6AC1nRrjx43XuB5YIBC8v+QTesasGbC1UyIw0JfvN69P2dvFxRlJzRJxcP+H920bAoFAg9B79EiFrq4OfySTtbU1atepw2vxt9n4IBAI3i35hM72irO9xOx7obZs2vzRf1G9QKANaByMEwgEHxdC6AKBFiCELhBoAULoAoEWIIQuEGgBQugCgRYghC4QaAFC6AKBFiCELhBoASWePHmS+2VmAoHgo0UIXSD46AH+DwV/XhDXB1rAAAAAAElFTkSuQmCC",
+          "Metadata" : [ {
+            "Key" : "dimension",
+            "Value" : "250x81"
+          }, {
+            "Key" : "number-of-pages",
+            "Value" : "1"
+          } ]
+        }
+      },
+      "Headline" : {
+        "Type" : {
+          "Code" : "job_applied_for",
+          "Label" : "JOB APPLIED FOR"
+        },
+        "Description" : {
+          "Label" : "European project manager"
+        }
+      },
+      "WorkExperience" : [ {
+        "Period" : {
+          "From" : {
+            "Year" : 2002,
+            "Month" : 8
+          },
+          "Current" : true
+        },
+        "Position" : {
+          "Label" : "Independent consultant"
+        },
+        "Activities" : "Evaluation of European Commission youth training support measures for youth national<br />agencies and young people",
+        "Employer" : {
+          "Name" : "British Council",
+          "ContactInfo" : {
+            "Address" : {
+              "Contact" : {
+                "AddressLine" : "123, Bd Ney",
+                "PostalCode" : "75023",
+                "Municipality" : "Paris",
+                "Country" : {
+                  "Code" : "FR",
+                  "Label" : "France"
+                }
+              }
+            }
+          }
+        }
+      }, {
+        "Period" : {
+          "From" : {
+            "Year" : 2002,
+            "Month" : 3
+          },
+          "To" : {
+            "Year" : 2002,
+            "Month" : 7
+          },
+          "Current" : false
+        },
+        "Position" : {
+          "Label" : "Internship"
+        },
+        "Activities" : "- evaluating youth training programmes for SALTO UK and the partnership between the<br />Council of Europe and European Commission<br />- organizing and running a 2 day workshop on non-formal education for Action 5 large scale projects focusing on quality, assessment and recognition<br />- contributing to the steering sroup on training and developing action plans on training for<br />the next 3 years. Working on the Users Guide for training and the support measures",
+        "Employer" : {
+          "Name" : "European Commission, Youth Unit, DG Education and Culture",
+          "ContactInfo" : {
+            "Address" : {
+              "Contact" : {
+                "AddressLine" : "200, Rue de la Loi",
+                "PostalCode" : "1049",
+                "Municipality" : "Brussels",
+                "Country" : {
+                  "Code" : "BE",
+                  "Label" : "Belgium"
+                }
+              }
+            }
+          },
+          "Sector" : {
+            "Label" : "European institution"
+          }
+        }
+      }, {
+        "Period" : {
+          "From" : {
+            "Year" : 2001,
+            "Month" : 10
+          },
+          "To" : {
+            "Year" : 2002,
+            "Month" : 2
+          },
+          "Current" : false
+        },
+        "Position" : {
+          "Label" : "Researcher / Independent Consultant"
+        },
+        "Activities" : "Working in a research team carrying out in-depth qualitative evaluation of the 2 year Advanced Training of Trainers in Europe using participant observations, in-depth interviews and focus groups. Work carried out in training courses in Strasbourg, Slovenia and Budapest.",
+        "Employer" : {
+          "Name" : "Council of Europe",
+          "ContactInfo" : {
+            "Address" : {
+              "Contact" : {
+                "Municipality" : "Budapest",
+                "Country" : {
+                  "Code" : "HU",
+                  "Label" : "Hungary"
+                }
+              }
+            }
+          }
+        }
+      } ],
+      "Education" : [ {
+        "Period" : {
+          "From" : {
+            "Year" : 1997
+          },
+          "To" : {
+            "Year" : 2001
+          },
+          "Current" : false
+        },
+        "Title" : "PhD - Thesis Title: 'Young People in the Construction of the Virtual University’, Empirical research on e-learning",
+        "Organisation" : {
+          "Name" : "Brunel University",
+          "ContactInfo" : {
+            "Address" : {
+              "Contact" : {
+                "Municipality" : "London",
+                "Country" : {
+                  "Code" : "UK",
+                  "Label" : "United Kingdom"
+                }
+              }
+            }
+          }
+        }
+      }, {
+        "Period" : {
+          "From" : {
+            "Year" : 1993
+          },
+          "To" : {
+            "Year" : 1997
+          },
+          "Current" : false
+        },
+        "Title" : "Bachelor of Science in Sociology and Psychology",
+        "Activities" : "- sociology of risk<br />- sociology of scientific knowledge / information society<br />- anthropology<br />E-learning and Psychology<br />- research methods",
+        "Organisation" : {
+          "Name" : "Brunel University",
+          "ContactInfo" : {
+            "Address" : {
+              "Contact" : {
+                "Municipality" : "London",
+                "Country" : {
+                  "Code" : "UK",
+                  "Label" : "United Kingdom"
+                }
+              }
+            }
+          }
+        }
+      } ],
+      "Skills" : {
+        "Linguistic" : {
+          "MotherTongue" : [ {
+            "Description" : {
+              "Code" : "en",
+              "Label" : "English"
+            }
+          } ],
+          "ForeignLanguage" : [ {
+            "Description" : {
+              "Code" : "fr",
+              "Label" : "French"
+            },
+            "ProficiencyLevel" : {
+              "Listening" : "C1",
+              "Reading" : "C2",
+              "SpokenInteraction" : "B2",
+              "SpokenProduction" : "C1",
+              "Writing" : "C2"
+            },
+            "Certificate" : [ {
+              "Title" : "Dalf C1"
+            } ]
+          }, {
+            "Description" : {
+              "Code" : "de",
+              "Label" : "German"
+            },
+            "ProficiencyLevel" : {
+              "Listening" : "A2",
+              "Reading" : "A2",
+              "SpokenInteraction" : "A2",
+              "SpokenProduction" : "A2",
+              "Writing" : "A2"
+            },
+            "Certificate" : [ {
+              "Title" : "Zertifikat (A2)"
+            } ]
+          } ]
+        },
+        "Communication" : {
+          "Description" : "- team work: I have worked in various types of teams from research teams to national league hockey. For 2 years I coached my university hockey team<br />- mediating skills: I work on the borders between young people, youth trainers, youth policy and researchers, for example running a 3 day workshop at CoE Symposium ‘Youth Actor of Social Change’, and my continued work on youth training programmes<br />- intercultural skills: I am experienced at working in a European dimension such as being a rapporteur at the CoE Budapest ‘youth against violence seminar’ and working with refugees."
+        },
+        "Organisational" : {
+          "Description" : "- whilst working for a Brussels based refugee NGO ‘Convivial’ I organized a ‘Civil Dialogue’<br />between refugees and civil servants at the European Commission 20th June 2002<br />- during my PhD I organised a seminar series on research methods"
+        },
+        "Computer" : {
+          "Description" : "- competent with most Microsoft Office programmes<br />- experience with HTML"
+        },
+        "Driving" : {
+          "Description" : [ "A", "B" ]
+        },
+        "Other" : {
+          "Description" : "Creating pieces of Art and visiting Modern Art galleries. Enjoy all sports particularly hockey, football and running. Love to travel and experience different cultures."
+        }
+      },
+      "Achievement" : [ {
+        "Title" : {
+          "Code" : "publications",
+          "Label" : "Publications"
+        },
+        "Description" : "‘How to do Observations: Borrowing techniques from the Social Sciences to help Participants do Observations in Simulation Exercises’ Coyote EU/CoE Partnership Publication, (2002)."
+      } ]
+    },
+    "CoverLetter" : {
+      "Addressee" : {
+        "PersonName" : {
+          "Title" : {
+            "Code" : "mr",
+            "Label" : "Mr."
+          },
+          "FirstName" : "John",
+          "Surname" : "Smith"
+        },
+        "Organisation" : {
+          "Name" : "Organisation Name",
+          "ContactInfo" : {
+            "Address" : {
+              "Contact" : {
+                "AddressLine" : "24 Street name",
+                "PostalCode" : "54321",
+                "Municipality" : "London",
+                "Country" : {
+                  "Code" : "UK",
+                  "Label" : "United Kingdom"
+                }
+              }
+            }
+          }
+        }
+      },
+      "Letter" : {
+        "Localisation" : {
+          "Date" : {
+            "Year" : 2014,
+            "Month" : 10,
+            "Day" : 6
+          },
+          "Place" : {
+            "Municipality" : "London"
+          }
+        },
+        "SubjectLine" : "Customer Service Representative #A22714",
+        "OpeningSalutation" : {
+          "Salutation" : {
+            "Code" : "opening-salut-2",
+            "Label" : "Dear Mr."
+          },
+          "PersonName" : {
+            "Surname" : "Smith"
+          }
+        },
+        "Body" : {
+          "Opening" : "<p>I recently learned of Company XYZ’s need for a Customer Service Representative and wanted to express my interest in the position. I have worked for more than 3 years in the telecommunications industry and am confident that my skills would be of great benefit to Company XYZ.</p>",
+          "MainBody" : "<p>As a Customer Service Representative at Company ABC, I have ample experience in abc. I also developed skills in def. I believe these experiences and skills would be beneficial in your company’s customer support.</p>",
+          "Closing" : "<p>I have attached my resume for your review, and I look forward to further discussing my qualifications with you. Again, I am very much interested in working for Company XYZ. Thank you for your time and consideration.</p>"
+        },
+        "ClosingSalutation" : {
+          "Code" : "closing-salut-3",
+          "Label" : "Sincerely"
+        }
+      },
+      "Documentation" : {
+        "Heading" : {
+          "Label" : "Enclosed:"
+        },
+        "InterDocument" : [ {
+          "ref" : "ECV"
+        } ]
+      }
+    }
+  }
+}

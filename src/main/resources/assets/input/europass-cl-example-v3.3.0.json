@@ -1,0 +1,164 @@
+{
+  "SkillsPassport" : {
+    "Locale" : "en",
+    "DocumentInfo" : {
+      "DocumentType" : "ECL",
+      "CreationDate" : "2014-04-07T13:16:01.036Z",
+      "LastUpdateDate" : "2015-06-03T12:18:07.914Z",
+      "XSDVersion" : "V3.3",
+      "Generator" : "REST_WS",
+      "Comment" : "Europass Cover Letter",
+      "EuropassLogo" : true
+    },
+    "PrintingPreferences" : {
+      "ECL" : [ {
+        "name" : "LearnerInfo.Identification.PersonName",
+        "show" : true,
+        "order" : "FirstName Surname"
+      }, {
+        "name" : "LearnerInfo.Identification.ContactInfo.Address",
+        "show" : true,
+        "format" : "s, m, z c"
+      }, {
+        "name" : "CoverLetter.Addressee.PersonName",
+        "show" : true,
+        "order" : "Title FirstName Surname"
+      }, {
+        "name" : "CoverLetter.Addressee",
+        "show" : true,
+        "position" : "left-align"
+      }, {
+        "name" : "CoverLetter.Letter.Localisation.Date",
+        "show" : false,
+        "format" : "text/long"
+      }, {
+        "name" : "CoverLetter.Letter.Localisation",
+        "show" : false,
+        "order" : "Place Date"
+      }, {
+        "name" : "CoverLetter.Letter.ClosingSalutation",
+        "show" : true,
+        "position" : "left-align"
+      }, {
+        "name" : "CoverLetter.Justification",
+        "show" : false,
+        "justify" : false
+      }, {
+        "name" : "CoverLetter",
+        "show" : false,
+        "order" : "Addressee Letter.Localisation Letter.SubjectLine Letter.OpeningSalutation Letter.Body Letter.ClosingSalutation"
+      } ]
+    },
+    "LearnerInfo" : {
+      "Identification" : {
+        "PersonName" : {
+          "FirstName" : "Jim",
+          "Surname" : "Burnett"
+        },
+        "ContactInfo" : {
+          "Address" : {
+            "Contact" : {
+              "AddressLine" : "12 Street name",
+              "PostalCode" : "12345",
+              "Municipality" : "London",
+              "Country" : {
+                "Code" : "UK",
+                "Label" : "United Kingdom"
+              }
+            }
+          },
+          "Email" : {
+            "Contact" : "jim@example.com"
+          },
+          "Telephone" : [ {
+            "Contact" : "+44 123456789",
+            "Use" : {
+              "Code" : "mobile",
+              "Label" : "Mobile"
+            }
+          } ]
+        },
+        "Signature" : {
+          "MimeType" : "image/png",
+          "Data" : "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",
+          "Metadata" : [ {
+            "Key" : "dimension",
+            "Value" : "250x81"
+          }, {
+            "Key" : "number-of-pages",
+            "Value" : "1"
+          } ]
+        }
+      }
+    },
+    "CoverLetter" : {
+      "Addressee" : {
+        "PersonName" : {
+          "Title" : {
+            "Code" : "mr",
+            "Label" : "Mr."
+          },
+          "FirstName" : "John",
+          "Surname" : "Smith"
+        },
+        "Organisation" : {
+          "Name" : "Organisation Name",
+          "ContactInfo" : {
+            "Address" : {
+              "Contact" : {
+                "AddressLine" : "24 Street name",
+                "PostalCode" : "54321",
+                "Municipality" : "London",
+                "Country" : {
+                  "Code" : "UK",
+                  "Label" : "United Kingdom"
+                }
+              }
+            }
+          }
+        }
+      },
+      "Letter" : {
+        "Localisation" : {
+          "Date" : {
+            "Year" : 2014,
+            "Month" : 4,
+            "Day" : 7
+          },
+          "Place" : {
+            "Municipality" : "London"
+          }
+        },
+        "SubjectLine" : "Customer Service Representative #A22714",
+        "OpeningSalutation" : {
+          "Salutation" : {
+            "Code" : "opening-salut-2",
+            "Label" : "Dear Mr."
+          },
+          "PersonName" : {
+            "Surname" : "Smith"
+          }
+        },
+        "Body" : {
+          "Opening" : "<p>I recently learned of Company XYZ’s need for a Customer Service Representative and wanted to express my interest in the position. I have worked for more than 3 years in the telecommunications industry and am confident that m<span class=\"redactor-selection-marker\">​</span>y skills would be of great benefit to Company XYZ. </p><br />",
+          "MainBody" : "<p>As a Customer Service Representative at Company ABC, I have ample experience in<span class=\"redactor-selection-marker\">​</span> abc. I also developed skills in def. I believe these experiences and skills would be beneficial in your company’s customer support. </p><br />",
+          "Closing" : "<p>I have attached my resume for your review, and I look forward to further discussing my qualifications with you. Again, I am very much interested in working for Company XYZ. Thank you for your time and consideration.</p><br />"
+        },
+        "ClosingSalutation" : {
+          "Code" : "closing-salut-3",
+          "Label" : "Sincerely"
+        }
+      },
+      "Documentation" : {
+        "Heading" : {
+          "Label" : "Enclosed"
+        },
+        "InterDocument" : [ {
+          "ref" : "ECV"
+        }, {
+          "ref" : "ESP"
+        } ]
+      }
+    }
+  }
+}

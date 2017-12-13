@@ -1,0 +1,251 @@
+<?xml version="1.0" encoding="UTF-8"?><SkillsPassport xmlns="http://europass.cedefop.europa.eu/Europass" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://europass.cedefop.europa.eu/Europass http://europass.cedefop.europa.eu/xml/v3.3.0/EuropassSchema.xsd" locale="en">
+  <DocumentInfo>
+    <DocumentType>ECL</DocumentType>
+    <CreationDate>2014-04-07T13:16:01.036Z</CreationDate>
+    <LastUpdateDate>2015-06-03T09:48:43.633Z</LastUpdateDate>
+    <XSDVersion>V3.3</XSDVersion>
+    <Generator>EWA</Generator>
+    <Comment>Europass Cover Letter</Comment>
+    <EuropassLogo>true</EuropassLogo>
+  </DocumentInfo>
+  <PrintingPreferences>
+    <Document type="ECL">
+      <Field name="LearnerInfo.Identification.PersonName" show="true" order="FirstName Surname"/>
+      <Field name="CoverLetter.Addressee.PersonName" show="true" order="Title FirstName Surname"/>
+      <Field name="CoverLetter.Letter.Localisation.Date" show="false" format="text/long"/>
+      <Field name="CoverLetter.Letter.Localisation" show="false" order="Place Date"/>
+      <Field name="CoverLetter.Justification" show="false"/>
+      <Field name="CoverLetter" show="false" order="Addressee Letter.Localisation Letter.SubjectLine Letter.OpeningSalutation Letter.Body Letter.ClosingSalutation"/>
+    </Document>
+  </PrintingPreferences>
+  <LearnerInfo>
+    <Identification>
+      <PersonName>
+        <FirstName>Jim</FirstName>
+        <Surname>Burnett</Surname>
+      </PersonName>
+      <ContactInfo>
+        <Address>
+          <Contact>
+            <AddressLine>12 Street name</AddressLine>
+            <PostalCode>12345</PostalCode>
+            <Municipality>London</Municipality>
+            <Country>
+              <Code>UK</Code>
+              <Label>United Kingdom</Label>
+            </Country>
+          </Contact>
+        </Address>
+        <Email>
+          <Contact>jim@example.com</Contact>
+        </Email>
+        <TelephoneList>
+          <Telephone>
+            <Contact>+44 123456789</Contact>
+            <Use>
+              <Code>mobile</Code>
+              <Label>Mobile</Label>
+            </Use>
+          </Telephone>
+        </TelephoneList>
+      </ContactInfo>
+      <Signature>
+        <MimeType>image/png</MimeType>
+        <Data>iVBORw0KGgoAAAANSUhEUgAAAPoAAABRCAYAAAD7N7sQAAAAAXNSR0IArs4c6QAAAARnQU1BAACx
+jwv8YQUAAAAJcEhZcwAADsIAAA7CARUoSoAAABuISURBVHhe7Z0HVFRXF4UtUXqZoQwDA0PvHQQE
+UbFiB1FQFOxdxN57N4pdwC427KJRo4kajb1rooktMX/siT0xMRrd/7mX5xLDaAQJlrnfWqyl7z2G
+mXfvPmefW96UePr0ac7ff//9rfgRP+Ln4/0p8eTJkx8hEAg+akqQ2k9L/xYIBB8pQugCgRYghC4Q
+aAFC6AKBFiCELhBoAULoAoEWIIQuEGgBQugCgRYghC4QaAFC6AKBFiCELhBoAULoAoEWIIQuEGgB
+QugCgRYghC4QaAFC6AKBFiCELhBoAULoAoEWIIQuEGgBQugCgRYghC4QaAFC6AKBFiCELhBoAR+0
+0H//7Tfs27sXZ7//XjoiEAg08UEL/d7du9iQk4ODhw5KRwQCgSaEdRcItAAhdIFACxBCFwi0ACF0
+gUALEEIXCLQAIXRBsXH71i3MzshAfFw8kps1x4rs5Xj06E/prOC/RAhd8J/y7TffIHt5NpYtXY6s
+hQuRPnMWUrp2g621DWyUCqxetUK6UvBf8p8L/Y8//sCPly7xRu7fpw/69uiJ7l1T0LljJ4wdM4Y6
+winpSsHHxC83b2LypEmoVqUKtXVnbMjZiBs3bvBzfz95goT4hrA0k2HipxP4McF/y0tCf/Ys9+dt
+uXL5Mvbt2YOMWbPQtlVrxNSvj7jYOLRMTkZql67o2L49akdHw9HBAX4+vlixfDmeUOMLCsb9+/ex
+Zu0aTBg/Af0oiH61c6d05t1x/949ZC9dgsZxcUhOSsK2bdtAfUw6m8uNa9dQNaoyXN3csPXzz6Wj
+HzfXrlzFtatXpf+9nu+/+x4Xzl+Q/lc0FFlGf/z4MQ7s24/BgwfzRm7ToiVGDhuOTRs34vS33+BP
+yux5YctXDx88hBrVqpHg1Th29Kh0RvAmPHjwGzp26AS5TA5TU1Po6umhBQXSZ0URqQsJCzTxjRsj
+uno1cnALqI1/l8684NmzpxgzeiSsra0QExOD33/Pf83HxLWrVzA7MxMRYZURUT4Sp05pdrCPH/+F
+L7d9gW5dU+Hk4ISEhAQ8+rPoxi/eWui3b9/GmtWr0ahhQ0RGVECf3r1x4vhx3L1zV7ri9WzZvAk2
+KiUmTtAeC3fnzh38+usv0v8KxzLKmkorJaIqVUbO+nU4e+4cveav0tni5eHD35GZmYEqVaIwcsQI
+XL96TTrzMsy1TRg3DmZyY4SEBuDwR7x0mSWyFdnZ9DmDYWBkCEd7d7Rp1R4//PCDdEUuv1HA3rxp
+ExKbNoWdnQN8vALQrk075Kxbj6dPn0pXvT2FFvo1asyM9Ew0btQIzRITkZmRgTPffiudfXMuXLwA
+N1dnDBzQXzrycfPrL78guXkS6taug0s//igdLRinvzmBBg1qITa2Ptm876Sj74ZjR46iSXwCibwK
+Nn32mXRUMzOnzYC5zIy395bNr7/2XcJcB9sodfjgQVw8f56XHky4tyiQPiPx/UGB7cmTx9LV/+QZ
+CfczEnULlAv0h6OjHQYO7KexnY4cPozWrVrCle6HnVqNevXq4eSJk9LZoqXAQmdRed68uVRjVUHD
+mIZYt24dr8sKy+KsRVBaK7B69UrpiGbY332XtrQoYB1mQP+BMDKUwdXZjTufgvKA6vJO7VvB39cd
+O7Zvk44WPw8fPqRAn4FAv0AkJTbHpR80By1W0u366it07tyZSjRnVKlUFVu3bJHOvp9c/vlnVKeS
+Ui6Xw9PTi5cjNWvUQFhYGB9vqhQZgZgG9dC9WwoJug1atmyNNpSFp0+djJSULrCxUdLvmsBerYKL
+iyM6dWyPGdOmYc6sWciaNw+LFyygNuwIL08PqMjNenq6w9fXl14vFWtWrcL8OXMxNS0NczLTMXd2
+BkYNH46xI0djycJFOH7sGB7/9Zf0Tt+cAgn9GP2R5s2bIbhcMGZMn14k9dXYUSNhSx/2EEVPTVz+
++TLm0gdfvXJVkVqZYoeyRNqkiZBR57FR2mDVypWFClw561YjNMgPKZ064M8/Xx73KA6uXrmCHTu+
+RKvWyTAyMUTrli1x967mMu3s92fRsUNHmFmYU4d3wdChQ3Hp0iXp7PvLX48eYdHChYiJbUDuwwVm
+psYw0NdBeHh5+gyD0KtXDypRhvNZhe6pPdCv/wBUqVYVcjMZF7mrqxMiIkLRvXs39O7dE127dEGX
+zh2REBcLTxcnKOTmUJgrERIUAi9XV1Sk101q1gx169RF1apV0YwcUuukJLRv2wrt27Wmv9cLgwcO
+xtBBQ5BOwYKtRygobyT0R38+wtQp0+Dl5Y0kegPfnTkjnXk7WIZLTGyKyArhfDomL6yOnTN7LurX
+bYA2rdvg20KUBe8L7LMMGTQAKlsl1PZ2FPmnSmcKxs//+wlNEhqiVo1qfH66uDl4YD+iKleEhYUp
+1Z266NSpPf9sz2GBi7Xp4UOH0btPH8rgTrCyska7tm2xf99+6aoPh6f0Wc6c/hYLF8xFGNXa5cPD
+0b9/Xyxbshh/5cmqrByLb9wI9vYOiGsYSwFgAi6cPyedfcGwIUPgZG/Px7NWrliBAf36YfqUKfjh
+wgVeGrBR+StXLuMhJdC/Hv1JuvuDlwlFwb8K/dKlH5HUvDm83L2QRdahKKfB9uz5GgorKwwdMlQ6
+QqK4fZts/CoqC2JRq2ZtrF+bw+3fh8rjvx6hW9cUGBoawYFEvnzpYjpa8EzO7nvfPt2hsrPChAnj
+paPFB2uDZhSUS5UqQRnamJzYCJ75nsOm0ZokJFCdWRc+vn6Uwd0pk6Vgz+7dH3T7PecmJaKV2Sv4
+LJHMVMbr6WVLlpBgsykT14avnzfiE+KwdHEWlbL3pd/KhTnfceNGw1qlIi0lY9NnGzF4cH+sXLm0
+2MrR1wr9xvXraJrYBIGBfviSGrKomULRzNXNFd+dznUILMpFRkbCz9+Pn2M28UPmCXXw8ePGQiYz
+g4e7J9auWSOdKTiHDx3inalmdE3876efpKPFx9TJaTA2NkWJEiXQu1d3nu3ywixlmVKloa+vi1Cq
+ZU8cPyGd+bj47cEDrFm9BtXJYpuR4M1kMni6u6Jdu5bYkLOGt3leWD3dt29v2NkpKSBE07/7ID4+
+DrNnp5MreBEo/2teKXRmR5pTJnewV+OLbVulo0UHG8GsVSsatWrXxFKyQsnJyQgpF4r2HdgUxEXp
+qrfnItmiqWmT+Rwvs5XFBbNigwcNgpW1Et5eXshZnyOdKTisFu/UoS3MzcxJcIWz/W8Dm/5RWCq5
+yFu2bKFxbObO7Tvo0a0bzOQyyuauWLVylXTmw+DevXs4f+4clixejNSUbmjcOAGZ6ZkvWfS8DBsy
+CLbWljA1MUTZT0qjUsWK+abOmJOZnZkBL293BAR6URkajQoVwrCE+ntxo1Hofz/5G6NGjYWt2gHp
+6bOko0UHsysDBw6gWk8Obx9PquMs0aBBfZw8cQJ3qeY7cvjIS7Xf62Cj0Gz0esrUKZg2bRpukfV/
+DpvuqxUdzTtovdp1SDDFt4FizJgxMLO0JDcUiK9375KOFo7s5Ythp7JEdLWqFCALPhDzNuzftw/B
+weXoHn7COz8rrV4FGyxlg7R2akc4Orphy2bNo+tnzpzBmrVrce2a5vl26iDSP/Lzz4z5prB6V9Ps
+EKuLJ02ciGrVq8LDwwOuzi6oGBEJW1s7WCutsXPHDunKXNjU28KFC+ie+MPb0xmhIf6oXasmBWEL
+hIdFYvmybOlKYPzYcbx/Bwf7Uj/wQYvkRCpX364vFBaNQj9NAvHw9EDTpol8rXpRwxbJsJFYuZkJ
+YmLqIjt7GbdEV36+jIRGCTDUN8HokaOlq3Nh2Zh1usVZWdzGsgaaP28+alStDn+ytFbWFjCl12Oj
+pazDLZy/AH5+PijzSRm4urjh82Kc0lmZnQ1LCwsoqaOwxURvAxt0q1QxHCobS6z9lynIomb7l1/A
+3c0DhoYytG/f6Y0CJWun0aNGQ0buIyqqSr6AzQa3KlaIRMkSpZD26UTp6As2rFuHFknJ1I5Z0hGC
+dH/82BFMSRuPJk3iebu/6VgRmwZcs3oV/V4CalaPxtGjx6QzwN69e1G9eg0oFFZ8NmktBR82t/3F
+1s8RGOCL4KDAl+a1WYKaMmUSidcDtnbWdI0P1qzKpmRzDwsXLCD360x23go9e/TGiBHDKXC4wc3Z
+HgE+7ujbuwdu3LwuvVLxk0/orG7o2LEdVGoltm//QjpaNLBlsGvppvt4e0FBWTxj1kweve+TyMeM
+GYeAgEDKHKXg6uSOndtz120zS3Xs6BF07dIZru5usFRYQq22I3H7Q25iDoXcCv6+nlDayGFjZ44u
+XTrwKQ8bazvo6OqRVYrA7q+KL4oyYYaGhMDS3IKv9X8b7ty+RYGwAYxNjdGP6rxX2cii5tGjR5hM
+Wc6KHEnpkmWhons5esRInDx5ggLmZvpc6ejcsQvmzp6jUfxsADeARKKys8XBAweko3RvTp1Eg5g6
+MDE2goebO/Z+vUc6kztgNXnyRLiQMPR1y2JA/wH8OJs3ZoOZ7h7u5Pzk0NPTgaOD42sXGx0+dADd
+U7pg5PChfEGXm5sL9HR16EcfO6QMzd4Xm0WytlZhxowZ/BiDjaOUKxeEiPAwCnRfSkdz3cq0qZNh
+q7KmJCXj41arVrzI3ox9e/aiWtVo6Ojow9DIEBYKuo6S0OyZM/MtAS9u8gl9/96voXZQolxIAK6/
+yloVgv3796Nd+zZUDigpGtpgHUVPxpcUPevXqwt9fQMYGBkhqnJlHKeo+xvVuFmLFqIhdXRfLzco
+qR6ytrOCJWXu0qVLwkBfD0mJidhK9rBZYhOYW5rA0UVFjecKV0cHmBqbcMGxDPKm3L71K99ZVViY
+yBvUrw+VrQ169+r5Spt59MgRbN64EXfvvro8YVNpHdq1hExmgOo1qlBbFE82YE/WTe3WFaVKleIl
+j6mhKRSUnS1NTWBEbVSyVGk6V5Kfq10rmpzYyyPMDOYCq0fXgNrRDps25o5NsFVmFcJDYK2yQGhY
+EHZsfyEitkClTdvW0DXQgw0JaeqUNFy7cgXjx30KBxK1Dd3PmtG1uLgUJDInat/Tp/MPLTHxs2Wn
+oaHBMDHRJUcl5/3GxUkNc5kp+vbpywMTm/dv2DAWxkbGmCpNdbKB38EDh9Lv2KJSpYrUb15+/Vkz
+ZkJtYwUDPT1UjKyAfXtfBKm8zJ4zm/pnaX5/fEjkzBW9D+QT+skTx+Hm4QxrGyW2fl64QbgHlKGf
+c5Us9ujRYxAdXROVq1WGjaMKvcjGsHq8Q/t2cKCGlRnpQWEug7+/L1JTUzCWro+KqoQyZUrD3laF
+8uWD4OxmT0K3RFmdMhTR7enGT8ft27+SlV8ITy8vyvRKmJkrYGpiAivqDEqFCcaMfjFt9zrYeuOl
+S5aRFQsiWzhPOlowWIBo264tDClbsdHVf64LYLDdZunpM8mNeMKBrN/eV3SW3bt3oyrV4wb6ZREZ
+HswzVHHAyqHkpGZkq0vAiDJSardU1KxWHUaGBnCyU+WuhoxrhEEDBqJP7168lNLEd2dOIywilAKv
+Pbfit35l88yxlJHNULlyOInka34dE9zOnTv4KrSyZXVIYJWwIWc9Tp08hRTK4nK5gmp9FyxYOJ+7
+gUoVI2AhN0K7Ni35UlTGjZs3yGmcxORJExFRPhxqO3uYymSQWZhQwFXAxkYBE0M9dKS2YfPTjG1b
+t1AAsSUrX5UngmlTJiMkJIychhmaJjTHT+RInnPt2lWkTUqD0sqGB4v+fXrnmw1i5cH58+cxkVxQ
+YFAQZBQU9fR1ERtTn9v99wGNNfrQIUMgMzGDv7c/hg8bhgP7NTdoXuh18L9Ll7Bo0SJquJp8MCo9
+cxZF1xC+VHb5smWIrlMbcoUFKlSMpPrFm7K4MSwtKVuQMC3I6qpsKPJS9ihbRofqdH2eqdnvNWoU
+BwNqrFKflCArXp7qqEMkrMdk7/pQA1jBwoIEbmqOyIqVMHbsWETXqEodVY86VUWq/1fwdcasE7PF
+B6yeYtOGLIsw+8aCUFxsI/r7VjAyMKUOM1n6RAXjm1On+Odio+yLFi6Qjr6ALTaJiaVsb6eEg6MV
+7FRm2Lsnt8Mz2Cj9AXo/7N67enihROkyCC0XjGNHDvN69L+eivmKBBcVFcVFrqIgP31abqY7dOAg
+vV9nKCwVmJo2Kd+0mibYbi1HF0d4+3nx3x8xbDAFZyuy306YN3c2rly+gqVZSxFTtwGVYWoK3mVh
+pVCgZ/dUvlbA29sFchJqdQp227/czl8z7dPxcKEkoSbxjhk5nO7dHswkSxwYGERBntrO1Ah6hvo8
+OJjJLPmDLdQUnFj/akiCu5fHPQ0Z3JcSmTkC/D2oj1Sg7G/Ma/U1q8llMl2SOA/T+2afo1JURcgt
+LchtGCI5uUXuC0jcvHEdy5YvQ0J8E0o2vtQPlXwqVaG0oNc0RPUqUS8lvXeJRqEz28yyqrODM3TK
+lOX1ZuP4eHRL7UbCH44Fc+ZhbuZsPn3UlWxet5QUxDWIpcDgS4KTkW0pidL0ez6UodOoc9ynyD18
+5AiYUtZWqhQU7fSo1rGjCF6ZLDfdRD1damw9+l0zvra4TatWfMCOLTbZsWM7zC3MKOKXIcsUie+/
+z90ccO/eXYrC5aCno4uw0DDeKGxVEYMNqAQHlYOBgTFMKLr6UAZlbqJxkyaIa5zArVlwUAAFCeYQ
+dOBg74RB/QfhGJUMzLoWhqysLLKdNrCgjjU5LY1H+cuXf0Y6dcbk5ER4ebvBxNwEtvY2vA719/TA
+7l27eIDIzEinTJrIO2apkiVhpVSiWfMknDub+w00rLOw2Y9WdF969OjJZyaKCuZE2L1jYxrMbrKp
+QJbx8sLKrIDAAD6uktK1K368+PI0Ul7YZpBK1MFNLOT0GRJ59msc15A6vj5s7G1Ro3YdyvaRMCNh
+G5sYwURO94RKOUfKsLa2SsipVDEy1KGyoDp++CF3T/buXTvhqLaFJWVztcoSPp6usFfbQZ+chp6e
+Pt1zEra9EgqFHPp67BoHxNVvACdXRyhtrbk7yJyZgZnTZqJfv37cUluSu7CwNIWPjzs6d2pP7mQv
+viFnsJiCdGqXLtT3HSj4m1G7eZCrsIdKpcKwocPoXqzjKxu7devCHYEpZXk59c+2bdsie/kK+Pmx
+caYS/GfsmNFvFBiLA41Cfw5b6jqNOm0SdbrwiAj6wA5woAjs4epC1lNN/7aDk4sTfLy84e3uRcfd
+ICcxW1JE69SpA44fy920sWHDRqqzbGEiM4aRsR6iqlTE5s82UkB5QPXYZB5AelFNyxbwX7x48aU1
+7WwGgNVTLKufPXtWOpoLGyxhmwU0DcycOX0Gffv2JQscBWuq640pwlpYWsPUjGV/U8oMNggPC8WI
+4cOK5CudNm7YALmZHIZGBhTEbPkGCGcXF5QpW5aciw6CAv0xkoLdhHHjqaywgbO9MyIiKsDDiw0k
+KrljsSK3U7N6NWSSvX9uM5+Tnp7OO4+hvhF/qEdRcP7cWT7CnbsQpjQqV6qCfa+w42zUu169OtAz
+0Iefvz93HsuWLsaJE8fI6l7ipdjatatRh8oWuaUc9s4O2LRpE//dsaNHcfv/SRld/hn0KQD7B/ih
+boM69NmtqG2MuWD0qf5lO75YcMwbcLd+vgVyCti6ZT/hNtzIQIfP10dFVcaM6dN4onF0tKUSUB8+
+7h58Dv/ChfOoU78OdKjuV1hYQW5sTvW1Kb0HHRhQba5vYMCDchQF/Zh69bn7Y2vULUm0pqbGfBxg
+xPChmDcng4KfOxyo/zqq7cnpyqBLSUyvzCdwtFfzZwCwUf3c3WzPyC0Mo/5dja+Au/QOFja9itcK
+PS8sizDh79+7ly+gYSvlDh3cj+9On+aDdj+R2AYPGYCQsGDMmDGVZ2MGmxMPCAzhDezs5IhxY8fg
+BlmegsDmym/fevX87etg+7537dyJ9evWcjGuX7ee3v82HKX3ldfOvS2s/u5L9ZuZmRl1SB2q99ju
+JTWaN2tOkX45LlANx2APY2hC7siYanldcjZKG2s+aNirZ09un29c1zwAypzMsKFDsHLlStwqxKaG
+f8I2RtSmUoq1S8mSpRHfqPG/rrhj+92HDxtKrsuDSiN6/7q68PXxQvmQYFgrLOkzsWAqh5OTAxfr
+82z24MF9vuqxdYvW6Ne3P9bn5OAcBVc2Jz937lw0o3vUn47PmjVL46PF2ADa/Llz0L9fX4weNZIv
+sGJPpmHWmfH55i3kSKxJkJ74Ks9IOavdG8c1Qgi5OzcXdzrvi+6pqZi/YD5atGhBAVkFKwoCMqrN
+7UnEQUG+aNokjo+us1KLwQZU27RuRZbclDI82X0/P3Sg7M3GiHbv+kpjDc7K2PeNNxb662AL+Lt0
+7YTU7ik4evSIdBRkhY/D3y8Y5lT/tm/XDqdOFnxb5ocEm/5ic/zr16zmMwcs02naUnj79i0sW5KF
+SZM+xS6ypXx2o5gHbVjGbEUdWG1vz5/fd+dNAym9Txa05lDpFt84HuXLhyEiPBS1omuS62qIYUMG
+8+nMp3/n32n4qlkINp33NrAVaKwE+lHDVlk2A3Dzxg2+6o0FsueDeKyt2EaprAWLkLN2PS6Qk/zp
+f5f4eo5/wlZxHjlyBMePH+ePSSvK/R7FxVsLnW1ZjIwMR+fOHfgI5XMuknWqShbG1zsAOes2SEcF
+7xMs4LDSqLCrzRh37tzGLzevk9iKZ45fUDgKLXRmT2ZNn0G1ZyB/kmfeBQFsPrlChQoIDgzCMYqE
+AoHg3VIoobOpKTYIERpcDp9tfPmRQGzkunz5SAQHh/DpIoFA8O4psNBPHDuK+jVqoGbVarxmyQub
+8wwLj0CDmJh8I+QCgeDdUSChs5HO0HKBaFSvHn76x5a8NStXwdHeCU0Tm/HVcAKB4P3hjYU+d84c
+vp00MTEh3xJA9qQNJ7UD2rRoo3Hpp0AgeLe8kdDZ1lBrlQ1at2710kYMtixz/NjR/Du02Nct/fHw
+oXRGIBC8T/yr0NetXQ1nZyckJTV/6QsC2CIWtkOLrVMfPLB/sW2hFAgEBee1QmfPWnd2tkdCfGP+
+aKnnHD96FK1btYKXpydmTp8O9tQNgUDw/vJKobPlona2tnzzB/u2iuewp30GBATA29v7rR52KBAI
+ig+NQt+xfTtsVHZwcHLiD0lgsDXIbOeUWu3Av63i6927+XGBQPD+k0/o9+/dRWxsPZiaGWPRwvl8
+eSRbwO/s6AC1nRrjx43XuB5YIBC8v+QTesasGbC1UyIw0JfvN69P2dvFxRlJzRJxcP+H920bAoFA
+g9B79EiFrq4OfySTtbU1atepw2vxt9n4IBAI3i35hM72irO9xOx7obZs2vzRf1G9QKANaByMEwgE
+HxdC6AKBFiCELhBoAULoAoEWIIQuEGgBQugCgRYghC4QaAFC6AKBFiCELhBoASWePHmS+2VmAoHg
+o0UIXSD46AH+DwV/XhDXB1rAAAAAAElFTkSuQmCC</Data>
+        <MetadataList>
+          <Metadata key="dimension" value="250x81"/>
+          <Metadata key="number-of-pages" value="1"/>
+        </MetadataList>
+      </Signature>
+    </Identification>
+  </LearnerInfo>
+  <CoverLetter>
+    <Addressee>
+      <PersonName>
+        <Title>
+          <Code>mr</Code>
+          <Label>Mr.</Label>
+        </Title>
+        <FirstName>John</FirstName>
+        <Surname>Smith</Surname>
+      </PersonName>
+      <Organisation>
+        <Name>Organisation Name</Name>
+        <ContactInfo>
+          <Address>
+            <Contact>
+              <AddressLine>24 Street name</AddressLine>
+              <PostalCode>54321</PostalCode>
+              <Municipality>London</Municipality>
+              <Country>
+                <Code>UK</Code>
+                <Label>United Kingdom</Label>
+              </Country>
+            </Contact>
+          </Address>
+        </ContactInfo>
+      </Organisation>
+    </Addressee>
+    <Letter>
+      <Localisation>
+        <Date year="2014" month="--04" day="---07"/>
+        <Place>
+          <Municipality>London</Municipality>
+        </Place>
+      </Localisation>
+      <SubjectLine>Customer Service Representative #A22714</SubjectLine>
+      <OpeningSalutation>
+        <Salutation>
+          <Code>opening-salut-2</Code>
+          <Label>Dear Mr.</Label>
+        </Salutation>
+        <PersonName>
+          <Surname>Smith</Surname>
+        </PersonName>
+      </OpeningSalutation>
+      <Body>
+        <Opening>&lt;p&gt;I recently learned of Company XYZ’s need for a Customer Service Representative and wanted to express my interest in the position. I have worked for more than 3 years in the telecommunications industry and am confident that m&lt;span class="redactor-selection-marker"&gt;​&lt;/span&gt;y skills would be of great benefit to Company XYZ. &lt;/p&gt;&lt;br /&gt;</Opening>
+        <MainBody>&lt;p&gt;As a Customer Service Representative at Company ABC, I have ample experience in&lt;span class="redactor-selection-marker"&gt;​&lt;/span&gt; abc. I also developed skills in def. I believe these experiences and skills would be beneficial in your company’s customer support. &lt;/p&gt;&lt;br /&gt;</MainBody>
+        <Closing>&lt;p&gt;I have attached my resume for your review, and I look forward to further discussing my qualifications with you. Again, I am very much interested in working for Company XYZ. Thank you for your time and consideration.&lt;/p&gt;&lt;br /&gt;</Closing>
+      </Body>
+      <ClosingSalutation>
+        <Code>closing-salut-3</Code>
+        <Label>Sincerely</Label>
+      </ClosingSalutation>
+    </Letter>
+    <Documentation>
+      <Heading>
+        <Label>Enclosed</Label>
+      </Heading>
+      <InterDocument>
+        <ReferencedDocument ref="ECV"/>
+        <ReferencedDocument ref="ESP"/>
+      </InterDocument>
+    </Documentation>
+  </CoverLetter>
+</SkillsPassport>

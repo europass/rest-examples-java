@@ -1,0 +1,232 @@
+{
+  "SkillsPassport" : {
+    "Locale" : "en",
+    "DocumentInfo" : {
+      "DocumentType" : "ELP",
+      "CreationDate" : "2013-07-08T00:00:00.000Z",
+      "LastUpdateDate" : "2015-06-03T12:17:37.602Z",
+      "XSDVersion" : "V3.3",
+      "Generator" : "REST_WS",
+      "Comment" : "Automatically generated Europass Language Passport",
+      "EuropassLogo" : true
+    },
+    "PrintingPreferences" : {
+      "ELP" : [ {
+        "name" : "LearnerInfo.Identification.PersonName",
+        "show" : true,
+        "order" : "FirstName Surname"
+      }, {
+        "name" : "LearnerInfo.Skills.Linguistic.ForeignLanguage[0].Certificate[0].Date",
+        "show" : true,
+        "format" : "numeric/long"
+      }, {
+        "name" : "LearnerInfo.Skills.Linguistic.ForeignLanguage[0].Certificate[1].Date",
+        "show" : true,
+        "format" : "numeric/long"
+      }, {
+        "name" : "LearnerInfo.Skills.Linguistic.ForeignLanguage[0].Experience[0].Period",
+        "show" : true,
+        "format" : "numeric/long"
+      }, {
+        "name" : "LearnerInfo.Skills.Linguistic.ForeignLanguage[0].Experience[1].Period",
+        "show" : true,
+        "format" : "numeric/long"
+      }, {
+        "name" : "LearnerInfo.Skills.Linguistic.ForeignLanguage[1].Certificate[0].Date",
+        "show" : true,
+        "format" : "numeric/long"
+      }, {
+        "name" : "LearnerInfo.Skills.Linguistic.ForeignLanguage[1].Experience[0].Period",
+        "show" : true,
+        "format" : "numeric/long"
+      }, {
+        "name" : "LearnerInfo.Skills.Linguistic.ForeignLanguage[2].Certificate[0].Date",
+        "show" : false,
+        "format" : "numeric/long"
+      }, {
+        "name" : "LearnerInfo.Skills.Linguistic.ForeignLanguage[2].Experience[0].Period",
+        "show" : true,
+        "format" : "numeric/long"
+      }, {
+        "name" : "LearnerInfo.Skills.Linguistic.ForeignLanguage[3].Certificate[0].Date",
+        "show" : false,
+        "format" : "numeric/long"
+      }, {
+        "name" : "LearnerInfo.Skills.Linguistic.ForeignLanguage[3].Experience[0].Period",
+        "show" : true,
+        "format" : "numeric/long"
+      }, {
+        "name" : "LearnerInfo.CEFLanguageLevelsGrid",
+        "show" : true
+      }, {
+        "name" : "LearnerInfo",
+        "show" : true,
+        "order" : "Identification Skills ReferenceTo"
+      } ]
+    },
+    "LearnerInfo" : {
+      "Identification" : {
+        "PersonName" : {
+          "FirstName" : "Marc",
+          "Surname" : "Peeters"
+        }
+      },
+      "Skills" : {
+        "Linguistic" : {
+          "MotherTongue" : [ {
+            "Description" : {
+              "Label" : "French, Dutch"
+            }
+          } ],
+          "ForeignLanguage" : [ {
+            "Description" : {
+              "Code" : "en",
+              "Label" : "English"
+            },
+            "ProficiencyLevel" : {
+              "Listening" : "C2",
+              "Reading" : "C1",
+              "SpokenInteraction" : "C2",
+              "SpokenProduction" : "C2",
+              "Writing" : "C1"
+            },
+            "Experience" : [ {
+              "Period" : {
+                "From" : {
+                  "Year" : 2004,
+                  "Month" : 10
+                },
+                "To" : {
+                  "Year" : 2008,
+                  "Month" : 7
+                },
+                "Current" : false
+              },
+              "Description" : "Living and studying in Manchester for four years."
+            }, {
+              "Period" : {
+                "From" : {
+                  "Year" : 1999,
+                  "Month" : 3
+                },
+                "To" : {
+                  "Year" : 1999,
+                  "Month" : 4
+                },
+                "Current" : false
+              },
+              "Description" : "School exchange programme in Leeds: one month living with a British family"
+            } ],
+            "Certificate" : [ {
+              "Title" : "Certificate of Proficiency in English (CPE)",
+              "AwardingBody" : "University of Cambridge",
+              "Date" : {
+                "Year" : 2003,
+                "Month" : 5,
+                "Day" : 15
+              },
+              "Level" : "C2"
+            }, {
+              "Title" : "Cambridge English: First (FCE) for Schools",
+              "AwardingBody" : "University of Cambridge",
+              "Date" : {
+                "Year" : 2000,
+                "Month" : 11,
+                "Day" : 9
+              },
+              "Level" : "B2"
+            } ]
+          }, {
+            "Description" : {
+              "Code" : "de",
+              "Label" : "German"
+            },
+            "ProficiencyLevel" : {
+              "Listening" : "C1",
+              "Reading" : "C2",
+              "SpokenInteraction" : "C2",
+              "SpokenProduction" : "C1",
+              "Writing" : "C2"
+            },
+            "Experience" : [ {
+              "Period" : {
+                "From" : {
+                  "Year" : 2009,
+                  "Month" : 10
+                },
+                "To" : {
+                  "Year" : 2011,
+                  "Month" : 6
+                },
+                "Current" : false
+              },
+              "Description" : "Internship in Cologne, (working language: German)"
+            } ],
+            "Certificate" : [ {
+              "Title" : "Zertifikat (C1)",
+              "AwardingBody" : "GOETHE INSTITUT",
+              "Date" : {
+                "Year" : 2007
+              },
+              "Level" : "C1"
+            } ]
+          }, {
+            "Description" : {
+              "Code" : "es",
+              "Label" : "Spanish"
+            },
+            "ProficiencyLevel" : {
+              "Listening" : "B1",
+              "Reading" : "B2",
+              "SpokenInteraction" : "B2",
+              "SpokenProduction" : "B1",
+              "Writing" : "B2"
+            },
+            "Experience" : [ {
+              "Period" : {
+                "From" : {
+                  "Year" : 2007,
+                  "Month" : 9
+                },
+                "To" : {
+                  "Year" : 2008,
+                  "Month" : 2
+                },
+                "Current" : false
+              },
+              "Description" : "Erasmus programme in Madrid"
+            } ]
+          }, {
+            "Description" : {
+              "Code" : "ja",
+              "Label" : "Japanese"
+            },
+            "ProficiencyLevel" : {
+              "Listening" : "A1",
+              "Reading" : "A2",
+              "SpokenInteraction" : "A2",
+              "SpokenProduction" : "A2",
+              "Writing" : "A1"
+            },
+            "Experience" : [ {
+              "Period" : {
+                "From" : {
+                  "Year" : 2008,
+                  "Month" : 9,
+                  "Day" : 1
+                },
+                "To" : {
+                  "Year" : 2009,
+                  "Month" : 9,
+                  "Day" : 30
+                },
+                "Current" : false
+              },
+              "Description" : "Japanese Exchange and Teaching (JET) Programme"
+            } ]
+          } ]
+        }
+      }
+    }
+  }
+}

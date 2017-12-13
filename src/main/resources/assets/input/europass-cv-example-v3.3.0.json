@@ -1,0 +1,333 @@
+{
+  "SkillsPassport" : {
+    "Locale" : "en",
+    "DocumentInfo" : {
+      "DocumentType" : "ECV",
+      "CreationDate" : "2013-02-21T07:47:20.086Z",
+      "LastUpdateDate" : "2015-06-03T12:14:56.820Z",
+      "XSDVersion" : "V3.3",
+      "Generator" : "REST_WS",
+      "Comment" : "Europass CV",
+      "EuropassLogo" : true
+    },
+    "PrintingPreferences" : {
+      "ECV" : [ {
+        "name" : "LearnerInfo.Identification.PersonName",
+        "show" : true,
+        "order" : "FirstName Surname"
+      }, {
+        "name" : "LearnerInfo.Identification.Demographics.Birthdate",
+        "show" : true,
+        "format" : "numeric/long"
+      }, {
+        "name" : "LearnerInfo.WorkExperience[0].Period",
+        "show" : true,
+        "format" : "numeric/long"
+      }, {
+        "name" : "LearnerInfo.WorkExperience[1].Period",
+        "show" : true,
+        "format" : "numeric/long"
+      }, {
+        "name" : "LearnerInfo.WorkExperience[2].Period",
+        "show" : true,
+        "format" : "numeric/long"
+      }, {
+        "name" : "LearnerInfo.Education[0].Period",
+        "show" : true,
+        "format" : "numeric/long"
+      }, {
+        "name" : "LearnerInfo.Education[1].Period",
+        "show" : true,
+        "format" : "numeric/long"
+      }, {
+        "name" : "LearnerInfo",
+        "show" : true,
+        "order" : "Identification Headline WorkExperience Education Skills Achievement ReferenceTo"
+      } ]
+    },
+    "LearnerInfo" : {
+      "Identification" : {
+        "PersonName" : {
+          "FirstName" : "Betty",
+          "Surname" : "Smith"
+        },
+        "ContactInfo" : {
+          "Address" : {
+            "Contact" : {
+              "AddressLine" : "32 Reading rd",
+              "PostalCode" : "B26 3QJ",
+              "Municipality" : "Birmingham",
+              "Country" : {
+                "Code" : "UK",
+                "Label" : "United Kingdom"
+              }
+            }
+          },
+          "Email" : {
+            "Contact" : "smith@kotmail.com"
+          },
+          "Telephone" : [ {
+            "Contact" : "+44 2012345679",
+            "Use" : {
+              "Code" : "home",
+              "Label" : "Home"
+            }
+          }, {
+            "Contact" : "+44 7123456789",
+            "Use" : {
+              "Code" : "mobile",
+              "Label" : "Mobile"
+            }
+          } ],
+          "InstantMessaging" : [ {
+            "Contact" : "betty.smith",
+            "Use" : {
+              "Code" : "aim",
+              "Label" : "AOL Instant Messenger (AIM)"
+            }
+          } ]
+        },
+        "Demographics" : {
+          "Birthdate" : {
+            "Year" : 1975,
+            "Month" : 3,
+            "Day" : 1
+          },
+          "Gender" : {
+            "Code" : "F",
+            "Label" : "Female"
+          }
+        },
+        "Photo" : {
+          "MimeType" : "image/jpeg",
+          "Data" : "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",
+          "Metadata" : [ {
+            "Key" : "dimension",
+            "Value" : "591x608"
+          }, {
+            "Key" : "number-of-pages",
+            "Value" : "1"
+          } ]
+        }
+      },
+      "Headline" : {
+        "Type" : {
+          "Code" : "job_applied_for",
+          "Label" : "JOB APPLIED FOR"
+        },
+        "Description" : {
+          "Label" : "European project manager"
+        }
+      },
+      "WorkExperience" : [ {
+        "Period" : {
+          "From" : {
+            "Year" : 2002,
+            "Month" : 8
+          },
+          "Current" : true
+        },
+        "Position" : {
+          "Label" : "Independent consultant"
+        },
+        "Activities" : "Evaluation of European Commission youth training support measures for youth national<br />agencies and young people",
+        "Employer" : {
+          "Name" : "British Council",
+          "ContactInfo" : {
+            "Address" : {
+              "Contact" : {
+                "AddressLine" : "123, Bd Ney",
+                "PostalCode" : "75023",
+                "Municipality" : "Paris",
+                "Country" : {
+                  "Code" : "FR",
+                  "Label" : "France"
+                }
+              }
+            }
+          }
+        }
+      }, {
+        "Period" : {
+          "From" : {
+            "Year" : 2002,
+            "Month" : 3
+          },
+          "To" : {
+            "Year" : 2002,
+            "Month" : 7
+          },
+          "Current" : false
+        },
+        "Position" : {
+          "Label" : "Internship"
+        },
+        "Activities" : "- evaluating youth training programmes for SALTO UK and the partnership between the<br />Council of Europe and European Commission<br />- organizing and running a 2 day workshop on non-formal education for Action 5 large scale projects focusing on quality, assessment and recognition<br />- contributing to the steering sroup on training and developing action plans on training for<br />the next 3 years. Working on the Users Guide for training and the support measures",
+        "Employer" : {
+          "Name" : "European Commission, Youth Unit, DG Education and Culture",
+          "ContactInfo" : {
+            "Address" : {
+              "Contact" : {
+                "AddressLine" : "200, Rue de la Loi",
+                "PostalCode" : "1049",
+                "Municipality" : "Brussels",
+                "Country" : {
+                  "Code" : "BE",
+                  "Label" : "Belgium"
+                }
+              }
+            }
+          },
+          "Sector" : {
+            "Label" : "European institution"
+          }
+        }
+      }, {
+        "Period" : {
+          "From" : {
+            "Year" : 2001,
+            "Month" : 10
+          },
+          "To" : {
+            "Year" : 2002,
+            "Month" : 2
+          },
+          "Current" : false
+        },
+        "Position" : {
+          "Label" : "Researcher / Independent Consultant"
+        },
+        "Activities" : "Working in a research team carrying out in-depth qualitative evaluation of the 2 year Advanced Training of Trainers in Europe using participant observations, in-depth interviews and focus groups. Work carried out in training courses in Strasbourg, Slovenia and Budapest.",
+        "Employer" : {
+          "Name" : "Council of Europe",
+          "ContactInfo" : {
+            "Address" : {
+              "Contact" : {
+                "Municipality" : "Budapest",
+                "Country" : {
+                  "Code" : "HU",
+                  "Label" : "Hungary"
+                }
+              }
+            }
+          }
+        }
+      } ],
+      "Education" : [ {
+        "Period" : {
+          "From" : {
+            "Year" : 1997
+          },
+          "To" : {
+            "Year" : 2001
+          },
+          "Current" : false
+        },
+        "Title" : "PhD - Thesis Title: 'Young People in the Construction of the Virtual University’, Empirical research on e-learning",
+        "Organisation" : {
+          "Name" : "Brunel University",
+          "ContactInfo" : {
+            "Address" : {
+              "Contact" : {
+                "Municipality" : "London",
+                "Country" : {
+                  "Code" : "UK",
+                  "Label" : "United Kingdom"
+                }
+              }
+            }
+          }
+        }
+      }, {
+        "Period" : {
+          "From" : {
+            "Year" : 1993
+          },
+          "To" : {
+            "Year" : 1997
+          },
+          "Current" : false
+        },
+        "Title" : "Bachelor of Science in Sociology and Psychology",
+        "Activities" : "- sociology of risk<br />- sociology of scientific knowledge / information society<br />- anthropology<br />E-learning and Psychology<br />- research methods",
+        "Organisation" : {
+          "Name" : "Brunel University",
+          "ContactInfo" : {
+            "Address" : {
+              "Contact" : {
+                "Municipality" : "London",
+                "Country" : {
+                  "Code" : "UK",
+                  "Label" : "United Kingdom"
+                }
+              }
+            }
+          }
+        }
+      } ],
+      "Skills" : {
+        "Linguistic" : {
+          "MotherTongue" : [ {
+            "Description" : {
+              "Code" : "en",
+              "Label" : "English"
+            }
+          } ],
+          "ForeignLanguage" : [ {
+            "Description" : {
+              "Code" : "fr",
+              "Label" : "French"
+            },
+            "ProficiencyLevel" : {
+              "Listening" : "C1",
+              "Reading" : "C2",
+              "SpokenInteraction" : "B2",
+              "SpokenProduction" : "C1",
+              "Writing" : "C2"
+            },
+            "Certificate" : [ {
+              "Title" : "Dalf C1"
+            } ]
+          }, {
+            "Description" : {
+              "Code" : "de",
+              "Label" : "German"
+            },
+            "ProficiencyLevel" : {
+              "Listening" : "A2",
+              "Reading" : "A2",
+              "SpokenInteraction" : "A2",
+              "SpokenProduction" : "A2",
+              "Writing" : "A2"
+            },
+            "Certificate" : [ {
+              "Title" : "Zertifikat (A2)"
+            } ]
+          } ]
+        },
+        "Communication" : {
+          "Description" : "- team work: I have worked in various types of teams from research teams to national league hockey. For 2 years I coached my university hockey team<br />- mediating skills: I work on the borders between young people, youth trainers, youth policy and researchers, for example running a 3 day workshop at CoE Symposium ‘Youth Actor of Social Change’, and my continued work on youth training programmes<br />- intercultural skills: I am experienced at working in a European dimension such as being a rapporteur at the CoE Budapest ‘youth against violence seminar’ and working with refugees."
+        },
+        "Organisational" : {
+          "Description" : "- whilst working for a Brussels based refugee NGO ‘Convivial’ I organized a ‘Civil Dialogue’<br />between refugees and civil servants at the European Commission 20th June 2002<br />- during my PhD I organised a seminar series on research methods"
+        },
+        "Computer" : {
+          "Description" : "- competent with most Microsoft Office programmes<br />- experience with HTML"
+        },
+        "Driving" : {
+          "Description" : [ "A", "B" ]
+        },
+        "Other" : {
+          "Description" : "Creating pieces of Art and visiting Modern Art galleries. Enjoy all sports particularly hockey, football and running. Love to travel and experience different cultures."
+        }
+      },
+      "Achievement" : [ {
+        "Title" : {
+          "Code" : "publications",
+          "Label" : "Publications"
+        },
+        "Description" : "‘How to do Observations: Borrowing techniques from the Social Sciences to help Participants do Observations in Simulation Exercises’ Coyote EU/CoE Partnership Publication, (2002)."
+      } ]
+    }
+  }
+}

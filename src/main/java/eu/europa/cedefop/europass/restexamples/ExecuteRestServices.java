@@ -7,9 +7,10 @@ public class ExecuteRestServices {
 
     public static void main(String[] args) {
 
-        String type = System.getProperty("type");
-        String inputFile = System.getProperty("inputFile");
-        String outputFile = System.getProperty("outputFile");
+        final String type = System.getProperty("type");
+        final String inputFile = System.getProperty("inputFile");
+        final String outputFile = System.getProperty("outputFile");
+
         String baseRestUrl = System.getProperty("baseRestUrl");
         String language = System.getProperty("language");
 

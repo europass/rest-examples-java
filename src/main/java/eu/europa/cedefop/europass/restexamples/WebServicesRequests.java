@@ -84,9 +84,6 @@ public class WebServicesRequests {
             final HttpResponse response = client.execute(postRequest);
             response.getEntity().writeTo(new FileOutputStream(this.outputFile));
         }
-        catch (final KeyManagementException | NoSuchAlgorithmException | IOException e) {
-            System.out.println(e);
-        }
         catch (final Exception e) {
             System.out.println(e);
         }

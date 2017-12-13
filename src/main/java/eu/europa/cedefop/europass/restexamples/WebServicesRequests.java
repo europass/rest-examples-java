@@ -14,8 +14,6 @@ import javax.net.ssl.SSLContext;
 import javax.net.ssl.TrustManager;
 import javax.net.ssl.X509TrustManager;
 import java.io.*;
-import java.security.KeyManagementException;
-import java.security.NoSuchAlgorithmException;
 import java.security.SecureRandom;
 import java.security.cert.X509Certificate;
 import java.util.HashMap;
@@ -92,7 +90,6 @@ public class WebServicesRequests {
     private String getRestActionByType(final String type) {
         return (String)restActionMap.get(type);
     }
-
 
     public void setInputFile(final String inputFile) {
         this.inputFile = inputFile;

@@ -31,7 +31,7 @@ public class ExecuteRestServices {
         webServicesRequests.setLanguage(language);
         webServicesRequests.setInputFile(inputFile);
         webServicesRequests.setOutputFile(outputFile);
-        webServicesRequests.setType(type);
+        webServicesRequests.setType((String) restActionMap.get(type));
         webServicesRequests.setUrl(baseRestUrl);
 
         webServicesRequests.execute();

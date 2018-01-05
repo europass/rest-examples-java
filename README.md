@@ -6,8 +6,8 @@ Java-based examples for the Europass REST API
 System requirements:
 ====================
 
-JDK 7/JRE 7 or newer (http://www.oracle.com/technetwork/java/javase/downloads/index.html)
-Apache Maven Project (http://maven.apache.org/download.cgi#Installation)
+- JDK 7/JRE 7 or newer (http://www.oracle.com/technetwork/java/javase/downloads/index.html)
+- Apache Maven Project (http://maven.apache.org/download.cgi#Installation)
 
 Installation:
 =============
